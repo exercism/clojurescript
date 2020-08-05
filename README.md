@@ -13,4 +13,4 @@ The Clojurescript logo is designed by Chris Oakman and Brett Darnell.
 We are using it to identify the Clojurescript language itself, not any part of Exercism, which we believe to be admissible under fair use.
 The version of the logo that we are using is a black/white adaptation of the logo.
 
-TODO: Message to Chris and Brett, ask them about the permission to use and alter it for black/white version...
+TODO: There is no need to be ask a permission, the repo has a license section and it simply shows that it can be used and altered as however we want.
