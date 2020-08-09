@@ -1,0 +1,6 @@
+(ns word-count)
+
+(defn word-count [] ;; <--- arguments goes here...
+  ;; your code goes here...
+  )
+
