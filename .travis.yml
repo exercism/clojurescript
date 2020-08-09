@@ -1,5 +1,10 @@
-language: bash
+sudo: false
+
+language: clojure
+
+jdk: openjdk8
 
 script:
-  - bin/fetch-configlet
-  - bin/configlet lint --track-id clojurescript .
+- bin/fetch-configlet
+- bin/configlet lint --track-id clojurescript .
+- clojure -A:test
