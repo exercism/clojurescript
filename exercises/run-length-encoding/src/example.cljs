@@ -15,6 +15,6 @@
   (->> s
        (re-seq #"[0-9]+.|[a-zA-Z\s]")
        (map #(if (= (count %) 1) (str "1" %) %))
-       (map #(list (Integer. (reduce str "" (butlast %))) (str (last %))))
+       (map #(list (int (reduce str "" (butlast %))) (str (last %))))
        (map #(apply str (repeat (first %) (second %))))
        (reduce str)))
