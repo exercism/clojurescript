@@ -1,10 +1,184 @@
 {
-  "track_id": "clojurescript",
-  "language": "ClojureScript",
-  "active": false,
-  "blurb": "",
-  "ignore_pattern": "[Ee]xample",
-  "solution_pattern": "[Ee]xample",
-  "test_pattern": "[Tt]est",
-  "exercises": null
+    "language": "ClojureScript",
+    "track_id": "clojurescript",
+    "active": true,
+    "blurb": "",
+    "test_pattern": "[Tt]est",
+    "solution_pattern": "[Ee]xample",
+    "ignore_pattern": "[Ee]xample",
+    "exercises": [
+        {
+            "topics": null,
+            "difficulty": 1,
+            "unlocked_by": null,
+            "auto_approve": true,
+            "core": false,
+            "uuid": null,
+            "slug": "hello-world"
+        },
+        {
+            "topics": null,
+            "difficulty": 1,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "two-fer"
+        },
+        {
+            "topics": null,
+            "difficulty": 1,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "reverse-string"
+        },
+        {
+            "topics": null,
+            "difficulty": 2,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "bob"
+        },
+        {
+            "topics": [
+                "math"
+            ],
+            "difficulty": 1,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "armstrong-numbers"
+        },
+        {
+            "topics": null,
+            "difficulty": 2,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "rna-transcription"
+        },
+        {
+            "topics": null,
+            "difficulty": 2,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "run-length-encoding"
+        },
+        {
+            "topics": null,
+            "difficulty": 3,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "isbn-verifier"
+        },
+        {
+            "topics": null,
+            "difficulty": 2,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "word-count"
+        },
+        {
+            "topics": null,
+            "difficulty": 2,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "anagram"
+        },
+        {
+            "topics": null,
+            "difficulty": 3,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "beer-song"
+        },
+        {
+            "topics": null,
+            "difficulty": 2,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "series"
+        },
+        {
+            "topics": null,
+            "difficulty": 2,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "nucleotide-count"
+        },
+        {
+            "topics": null,
+            "difficulty": 2,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "hamming"
+        },
+        {
+            "topics": null,
+            "difficulty": 3,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "phone-number"
+        },
+        {
+            "topics": null,
+            "difficulty": 5,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "clock"
+        },
+        {
+            "topics": null,
+            "difficulty": 3,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "leap"
+        },
+        {
+            "topics": null,
+            "difficulty": 2,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "nucleotide-count"
+        },
+        {
+            "topics": null,
+            "difficulty": 2,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "raindrops"
+        },
+        {
+            "topics": [
+                "recursivity"
+            ],
+            "difficulty": 4,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "spiral-matrix"
+        },
+        {
+            "topics": null,
+            "difficulty": 2,
+            "unlocked_by": null,
+            "core": false,
+            "uuid": null,
+            "slug": "triangle"
+        }
+    ]
 }
