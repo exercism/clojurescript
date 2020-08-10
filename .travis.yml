@@ -4,6 +4,11 @@ language: java
 
 jdk: openjdk8
 
+install:
+- curl -O https://download.clojure.org/install/linux-install-1.9.0.358.sh
+- chmod +x linux-install-1.9.0.358.sh
+- sudo ./linux-install-1.9.0.358.sh
+
 script:
 - bin/fetch-configlet
 - bin/configlet lint --track-id clojurescript .
