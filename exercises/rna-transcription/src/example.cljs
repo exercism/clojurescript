@@ -1,9 +1,10 @@
 (ns rna-transcription)
 
-(def dna->rna {\G \C
-               \C \G
-               \A \U
-               \T \A})
+(def ^:private
+  dna->rna {\G \C
+            \C \G
+            \A \U
+            \T \A})
 
 (defn- translate [c]
   {:post [%]}
