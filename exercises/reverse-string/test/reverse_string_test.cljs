@@ -30,6 +30,15 @@
                word-test-results)))))
 
 (t/deftest long-string-test
-  (let [s (reduce str (repeat 1000 "overflow?"))
-        rs (reduce str (repeat 1000 "?wolfrevo"))]
-    (t/is (= rs (reverse-string/reverse-string s)))))
+  (t/testing "Reverse String a long string test..."
+    (let [long-test-argument (reduce str (repeat 1000 "overflow?"))
+          long-test-result (reduce str (repeat 1000 "?wolfrevo"))]
+      (t/is (= (reverse-string/reverse-string long-test-argument)
+               long-test-result)))))
+
+(t/deftest string-with-numbers-and-special-characters-test
+  (t/testing "Reverse String a string with numbers and special characters test..."
+    (let [special-character-test-argument "NKFVAS 1903!!!"
+          special-character-test-result "!!!3091 SAVFKN"]
+      (t/is (= (reverse-string/reverse-string special-character-test-argument)
+               special-character-test-result)))))
