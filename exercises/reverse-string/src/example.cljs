@@ -1,5 +1,4 @@
 (ns reverse-string)
 
-(defn reverse-string [s] ;; <- arglist goes here
-  (apply str (reverse s))
-  )
+(defn reverse-string [s]
+  (apply str (apply conj '() (map identity s))))
