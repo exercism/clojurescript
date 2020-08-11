@@ -18,12 +18,35 @@ One for you, one for me.
 
 Here are some examples:
 
-|Name       | String to return 
-|:---------:|:-----------------: 
-|Sarah      | One for Sarah, one for me.
-|Alice      | One for Alice, one for me. 
-|Eric       | One for Eric, one for me.
-|           | One for you, one for me.
+|Name    | String to return 
+|:------:|:-----------------: 
+|Sarah   | One for Sarah, one for me.
+|Alice   | One for Alice, one for me. 
+|Eric    | One for Eric, one for me.
+|        | One for you, one for me.
+
+### Running tests
+
+Run the tests using `clj A:test` command and make them pass:
+
+```
+$ clj A:test
+
+Testing hello-world-test
+
+Ran 1 tests containing 1 assertions.
+0 failures, 0 errors.
+```
+
+### Submitting Source
+
+Then submit the exercise using:
+
+```
+$ exercism submit src/two_fer.clj
+```
+
+For more detailed instructions and learning resources refer [Exercism's Clojurescript Language Page](http://exercism.io/languages/clojurescript).
 
 ## Source
 
