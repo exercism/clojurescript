@@ -45,7 +45,7 @@
                 "math"
             ],
             "difficulty": 1,
-            "unlocked_by": null,
+            "unlocked_by": "b373e89f-2afd-4a16-9cb4-3c4fbd541153",
             "core": false,
             "uuid": null,
             "slug": "armstrong-numbers"
