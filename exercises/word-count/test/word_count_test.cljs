@@ -1,27 +1,33 @@
 (ns word-count-test
-  (:require [cljs.test :refer [deftest is testing] :as t :include-macros true]
-            word-count))
+  (:require word-count
+            [cljs.test :refer [deftest is testing] :as t :include-macros true]))
 
 (deftest count-one-word
-  (is (= {"word" 1}
-         (word-count/word-count "word"))))
+  (testing "Test count one word..."
+    (is (= (word-count/word-count "clojurescript")
+           {"clojurescript" 1}))))
 
-(deftest count-one-of-each
-  (is (= {"one" 1 "of" 1 "each" 1}
-         (word-count/word-count "one of each"))))
+(deftest count-the-masters
+  (testing "Test count of the masters..."
+    (is (= (word-count/word-count "Mozart, Beethoven, Chopin.")
+           {"mozart" 1 "beethoven" 1 "chopin" 1}))))
 
 (deftest count-multiple-occurrences
-  (is (= {"one" 1 "fish" 4 "two" 1 "red" 1 "blue" 1}
-         (word-count/word-count "one fish two fish red fish blue fish"))))
+  (testing "Test count the multiple occurrences..."
+    (is (= (word-count/word-count "They never died. They simply became Music.")
+           {"they" 2 "never" 1 "died" 1 "simply" 1 "became" 1 "music" 1}))))
 
 (deftest ignore-punctuation
-  (is (= {"car" 1, "carpet" 1 "as" 1 "java" 1 "javascript" 1}
-         (word-count/word-count "car : carpet as java : javascript!!&@$%^&"))))
+  (testing "Test ignore punctuation..."
+    (is (= (word-count/word-count "Lisp : Clojure and Clojurescript -> javascript!!&@$%^&")
+           {"lisp" 1 "clojure" 1 "clojurescript" 1 "javascript" 1 "and" 1}))))
 
 (deftest include-numbers
-  (is (= {"testing" 2 "1" 1 "2" 1}
-         (word-count/word-count "testing, 1, 2 testing"))))
+  (testing "Test include numbers..."
+    (is (= (word-count/word-count "Ses, ses, se, a, 1, 2!")
+           {"ses" 2 "se" 1 "a" 1 "1" 1 "2" 1}))))
 
 (deftest normalize-case
-  (is (= {"go" 3}
-         (word-count/word-count "go Go GO"))))
+  (testing "Test normalize case..."
+    (is (= (word-count/word-count "Clojurescript ClojureScript clojurescript")
+           {"clojurescript" 3}))))
