@@ -1,9 +1,11 @@
 (ns word-count
-  (:require [clojure.string :refer [lower-case]]))
+  (:require [clojure.string]))
 
-(defn words [s]
-  (re-seq #"\w+" s))
+(defn- text->words [t]
+  (re-seq #"\b[A-Za-z0-9]+\b" t))
 
-(defn word-count [s]
-  (-> s lower-case words frequencies))
+(defn- normalize-words [ws]
+  (map clojure.string/lower-case ws))
 
+(defn word-count [t]
+  (-> t text->words normalize-words frequencies))
