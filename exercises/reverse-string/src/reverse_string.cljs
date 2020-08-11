@@ -1,5 +1,5 @@
 (ns reverse-string)
 
-(defn reverse-string [s] ;; <- arglist goes here
+(defn reverse-string [s] ;; arguments vector...
   ;; your code goes here...
   )
