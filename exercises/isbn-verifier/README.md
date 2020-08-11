@@ -29,7 +29,6 @@ Putting this into place requires some thinking about preprocessing/parsing of th
 
 The program should be able to verify ISBN-10 both with and without separating dashes.
 
-
 ## Caveats
 
 Converting from strings to numbers can be tricky in certain languages.
