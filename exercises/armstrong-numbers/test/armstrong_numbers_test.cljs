@@ -6,38 +6,38 @@
   (t/testing "Zero is an Armstrong number..."
     (t/is (armstrong-numbers/armstrong? 0))))
 
-(t/deftest armstrong-number-5
+(t/deftest armstrong-number-3
   (t/testing "Single digit numbers are Armstrong numbers..."
-    (t/is (armstrong-numbers/armstrong? 5))))
+    (t/is (armstrong-numbers/armstrong? 3))))
 
-(t/deftest not-armstrong-number-10
+(t/deftest not-armstrong-number-11
   (t/testing "There are no 2 digit Armstrong numbers..."
-    (t/is (not (armstrong-numbers/armstrong? 10)))))
+    (t/is (not (armstrong-numbers/armstrong? 11)))))
 
-(t/deftest armstrong-number-153
+(t/deftest armstrong-number-371
   (t/testing "Three digit number that is an Armstrong number..."
-    (t/is (armstrong-numbers/armstrong? 153))))
+    (t/is (armstrong-numbers/armstrong? 371))))
 
-(t/deftest not-armstrong-number-100
+(t/deftest not-armstrong-number-111
   (t/testing "Three digit number that is not an Armstrong number..."
-    (t/is (not (armstrong-numbers/armstrong? 100)))))
+    (t/is (not (armstrong-numbers/armstrong? 111)))))
 
-(t/deftest armstrong-number-9474
+(t/deftest armstrong-number-8202
   (t/testing "Four digit number that is an Armstrong number..."
-    (t/is (armstrong-numbers/armstrong? 9474))))
+    (t/is (armstrong-numbers/armstrong? 8208))))
 
-(t/deftest not-armstrong-number-9475
+(t/deftest not-armstrong-number-9575
   (t/testing "Four digit number that is not an Armstrong number..."
-    (t/is (not (armstrong-numbers/armstrong? 9475)))))
+    (t/is (not (armstrong-numbers/armstrong? 9575)))))
 
-(t/deftest armstrong-number-9926315
-  (t/testing "Seven digit number that is an Armstrong number..."
-    (t/is (armstrong-numbers/armstrong? 9926315))))
+(t/deftest armstrong-number-534494836
+  (t/testing "Nine digit number that is an Armstrong number..."
+    (t/is (armstrong-numbers/armstrong? 534494836))))
 
-(t/deftest not-armstrong-number-9926314
-  (t/testing "Seven digit number that is not an Armstrong number..."
-    (t/is (not (armstrong-numbers/armstrong? 9926314)))))
+(t/deftest not-armstrong-number-531492866
+  (t/testing "Nine digit number that is not an Armstrong number..."
+    (t/is (not (armstrong-numbers/armstrong? 531492866)))))
 
-(t/deftest armstrong-number-21897142587612075
+(t/deftest armstrong-number-35875699062250035
   (t/testing "Seventeen digit number that is an Armstrong number..."
-    (t/is (not (armstrong-numbers/armstrong? 21897142587612075)))))
+    (t/is (not (armstrong-numbers/armstrong? 35875699062250035)))))
