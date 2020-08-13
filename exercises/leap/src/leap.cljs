@@ -1,3 +1,3 @@
 (ns leap)
 
-(defn leap-year? [])
+(defn leap-year? [year])
