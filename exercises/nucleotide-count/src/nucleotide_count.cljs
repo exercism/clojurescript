@@ -1,5 +1,5 @@
 (ns nucleotide-count)
 
-(defn nucleotide-counts [] ;; <--- arguments goes here...
-  ;; your code goes here...
-  )
+(defn count-of-nucleotide-in-strand [nucleotide dna-strand])
+
+(defn nucleotide-counts [dna-strand])

@@ -1,8 +1,8 @@
 (ns nucleotide-count)
 
-(def ^{:private :const} dna-nucleotides #{\A \C \G \T})
+(def ^:private dna-nucleotides #{\A \C \G \T})
 
-(def ^{:private :const} base-count
+(def ^:private base-count
   (zipmap dna-nucleotides (repeat 0)))
 
 (defn nucleotide-counts
