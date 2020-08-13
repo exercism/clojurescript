@@ -1,51 +1,74 @@
 (ns raindrops-test
-  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
-            raindrops))
+  (:require raindrops
+            [cljs.test :refer [deftest testing are is] :as t :include-macros true]))
 
-(deftest one
-  (is (= "1" (raindrops/convert 1))))
+(deftest literals
+  (testing "Testing one and two literals..."
+    (is (= "1" (raindrops/convert 1)))
+    (is (= "2" (raindrops/convert 2)))))
 
 (deftest three
-  (is (= "Pling" (raindrops/convert 3))))
-
-(deftest five
-  (is (= "Plang" (raindrops/convert 5))))
-
-(deftest seven
-  (is (= "Plong" (raindrops/convert 7))))
+  (testing "Testing, three..."
+    (is (= "Pling" (raindrops/convert 3)))))
 
 (deftest six
-  (is (= "Pling" (raindrops/convert 6))))
+  (testing "Testing, six..."
+    (is (= "Pling" (raindrops/convert 6)))))
 
 (deftest nine
-  (is (= "Pling" (raindrops/convert 9))))
+  (testing "Testing, nine..."
+    (is (= "Pling" (raindrops/convert 9)))))
 
 (deftest ten
-  (is (= "Plang" (raindrops/convert 10))))
+  (testing "Testing, ten..."
+    (is (= "Plang" (raindrops/convert 10)))))
+
+(deftest twelve
+  (testing "Testing, twelve..."
+    (is (= "Pling" (raindrops/convert 12)))))
 
 (deftest fourteen
-  (is (= "Plong" (raindrops/convert 14))))
+  (testing "Testing, fourteen..."
+    (is (= "Plong" (raindrops/convert 14)))))
 
 (deftest fifteen
-  (is (= "PlingPlang" (raindrops/convert 15))))
+  (testing "Testing, fifteen..."
+    (is (= "PlingPlang" (raindrops/convert 15)))))
 
 (deftest twenty-one
-  (is (= "PlingPlong" (raindrops/convert 21))))
+  (testing "Testing, twenty-one..."
+    (is (= "PlingPlong" (raindrops/convert 21)))))
 
 (deftest twenty-five
-  (is (= "Plang" (raindrops/convert 25))))
+  (testing "Testing, twenty-five..."
+    (is (= "Plang" (raindrops/convert 25)))))
 
 (deftest thirty-five
-  (is (= "PlangPlong" (raindrops/convert 35))))
+  (testing "Testing, thirty-five..."
+    (is (= "PlangPlong" (raindrops/convert 35)))))
 
 (deftest forty-nine
-  (is (= "Plong" (raindrops/convert 49))))
+  (testing "Testing, forty-nine..."
+    (is (= "Plong" (raindrops/convert 49)))))
 
 (deftest fifty-two
-  (is (= "52" (raindrops/convert 52))))
+  (testing "Testing, fifty-two..."
+    (is (= "52" (raindrops/convert 52)))))
 
-(deftest one-hundred-five
-  (is (= "PlingPlangPlong" (raindrops/convert 105))))
+(deftest pling-plang-plong
+  (testing "Testing, one-hundred-five..."
+    (is (= "PlingPlangPlong" (raindrops/convert 1036980)))))
 
-(deftest twelve-thousand-one-hundred-twenty-one
-  (is (= "12121" (raindrops/convert 12121))))
+(deftest testing-really-big-numbers
+  (testing "Testing, big numbers..."
+    (let [number-1 12387123
+          number-2 18732999
+          number-3 202023
+
+          number-1-result "PlingPlong"
+          number-2-result "Pling"
+          number-3-result "Pling"]
+      (are [number result] (= number result)
+        number-1-result (raindrops/convert number-1)
+        number-2-result (raindrops/convert number-2)
+        number-3-result (raindrops/convert number-3)))))

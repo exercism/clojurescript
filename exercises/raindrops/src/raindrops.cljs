@@ -1,4 +1,3 @@
-(ns raindrops
-  (:require [clojure.string :refer [blank?]]))
+(ns raindrops)
 
-(defn convert [])
+(defn convert [n])
