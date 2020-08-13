@@ -2,20 +2,47 @@
   (:require [goog.string :as gstring]
             [goog.string.format]))
 
-(defn clock
-  "Return a 24 hour clock representation of the given hours and minutes."
-  [in-hour in-minute]
-  (let [total-minutes (mod (+ (* in-hour 60) in-minute) (* 60 24))
-        hours (mod (quot total-minutes 60) 24)
-        minutes (mod total-minutes 60)]
-    {:hour hours :minute minutes}))
+(def ^:private inception {:hours 0 :minutes 0})
+
+(defn- ->hour->
+  "Takes hour data, set to time-map.
+   *Compositional."
+  [m h]
+  (update m :hours #(+ % h)))
+
+(defn- ->minutes->
+  "Takes minute data, set to time-map.
+   *Compositional."
+  [m mi]
+  (update m :minutes #(+ % mi)))
+
+(defn- normalize
+  "Takes time-map, Normalize the data structure.
+   M -> M."
+  [{:keys [hours minutes]}]
+  (let [m-pre-normalized (rem minutes 60)
+        m-residue (-> minutes (/ 60) int)
+        h-calculated (+ hours m-residue)
+        h-pre-calculated (rem h-calculated 24)
+        [h-mid-normalized m-normalized] (if (neg? m-pre-normalized) [(dec h-pre-calculated) (+ 60 m-pre-normalized)] [h-pre-calculated m-pre-normalized])
+        h-normalized (if (neg? h-mid-normalized) (+ 24 h-mid-normalized) h-mid-normalized)]
+    {:hours h-normalized :minutes m-normalized}))
 
 (defn clock->string
-  "Print the HH:MM representation of a clock."
-  [in-clock]
-  (gstring/format "%02d:%02d" (:hour in-clock) (:minute in-clock)))
+  "Takes time-map and returns time-string.
+   Expected format: %s:%s"
+  [{:keys [hours minutes]}]
+  (gstring/format "%02d:%02d" hours minutes))
+
+(defn clock
+  "Takes hours : h, minutes : m and returns normalized time-map.
+   It uses 00:00 as initializer value."
+  [h m]
+  (-> inception (->hour-> h)
+      (->minutes-> m)
+      normalize))
 
 (defn add-time
-  "Add minutes to the given clock."
-  [in-clock minutes-to-add]
-  (clock (:hour in-clock) (+ (:minute in-clock) minutes-to-add)))
+  "Takes time : time-map, minutes : mi and returns calculated, normalized new time-map."
+  [cm mi]
+  (-> cm (->minutes-> mi) normalize))
