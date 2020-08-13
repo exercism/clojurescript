@@ -1,5 +1,9 @@
 (ns hamming)
 
-(defn distance [a b]
-  (when (= (count a) (count b))
-    (count (filter true? (map not= a b)))))
+(defn distance
+  "Hamming, DNA strands a and b."
+  [a b]
+  (let [a-count (count a)
+        b-count (count b)]
+    (when (= a-count b-count)
+      (count (filter identity (map not= a b))))))

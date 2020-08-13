@@ -3,19 +3,23 @@
             [cljs.test :refer [deftest testing is] :as t :include-macros true]))
 
 (deftest no-difference-between-empty-strands
-  (is (= 0 (hamming/distance "" ""))))
+  (testing "Test no difference with empty strands..."
+    (is (= 0 (hamming/distance "" "")))))
 
 (deftest no-difference-between-identical-strands
-  (is (= 0 (hamming/distance "GGACTGA" "GGACTGA"))))
+  (testing "Test no difference between identical strands..."
+    (is (= 0 (hamming/distance "CCC" "CCC")))))
 
-(deftest complete-distance-in-small-strand
-  (is (= 3 (hamming/distance "ACT" "GGA"))))
+(deftest complete-distance-in-small-strands
+  (testing "Test complete distance in small strands..."
+    (is (= 3 (hamming/distance "CCCATTTAGA" "CCCAGAGAGA")))))
 
 (deftest small-distance-in-middle-somewhere
-  (is (= 1 (hamming/distance "GGACG" "GGTCG"))))
+  (testing "Test small distance in middle of the strand..."
+    (is (= 1 (hamming/distance "CCCAGAGAGACCC" "CCCAGAGTGACCC")))))
 
 (deftest larger-distance
-  (is (= 2 (hamming/distance "ACCAGGG" "ACTATGG"))))
+  (is (= 9 (hamming/distance "AAGAGCCATG" "CTTAATACAT"))))
 
 (deftest undefined-when-lengths-are-different
   (is (= nil (hamming/distance "AAAC" "TAGGGGAGGCTAGCGGTAGGAC")))
