@@ -152,14 +152,6 @@
             "unlocked_by": null,
             "core": false,
             "uuid": null,
-            "slug": "nucleotide-count"
-        },
-        {
-            "topics": null,
-            "difficulty": 2,
-            "unlocked_by": null,
-            "core": false,
-            "uuid": null,
             "slug": "raindrops"
         },
         {
