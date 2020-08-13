@@ -2,22 +2,22 @@
   (:require [series :refer [slices]]
             [cljs.test :refer [deftest is testing] :as t :include-macros true]))
 
-(deftest empty-string
-  (testing "empty string with any number"
+(deftest series-empty-string
+  (testing "Test empty string with any number..."
     (is (= [] (slices "" 1)))))
 
-(deftest number-eq-zero
+(deftest series-number-eq-zero
   (testing "number = 0"
-    (is (= [""] (slices "123" 0)))))
+    (is (= [""] (slices "1453" 0)))))
 
-(deftest number>string
+(deftest series-number>string
   (testing "number > string-length"
-    (is (= [] (slices "123" 1000)))))
+    (is (= [] (slices "1992" 1999)))))
 
-(deftest number=string
+(deftest series-number=string
   (testing "number = string-length"
-    (is (= ["123"] (slices "123" 3)))))
+    (is (= ["1923"] (slices "1923" 4)))))
 
-(deftest number<string
+(deftest series-number<string
   (testing "number < string-length"
-    (is (= #{"123" "234" "345"} (set (slices "12345" 3))))))
+    (is (= #{"194" "942" "420" "201" "010" "108"} (set (slices "19420108" 3))))))

@@ -19,6 +19,7 @@ whatever you get.
 
 Note that these series are only required to occupy *adjacent positions*
 in the input; the digits need not be *numerically consecutive*.
+
 ## Source
 
 A subset of the Problem 8 at Project Euler [http://projecteuler.net/problem=8](http://projecteuler.net/problem=8)

@@ -1,5 +1,5 @@
 (ns series)
 
-(defn slices [] ;; <--- arguments goes here...
+(defn slices [s n]
   ;; your code goes here...
   )
