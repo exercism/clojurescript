@@ -1,11 +1,13 @@
-(ns spiral-matrix)
+(ns ^{:doc "This solution referenced from `RosettaCode` [https://rosettacode.org/wiki/Spiral_matrix#Clojure]"}
+    spiral-matrix)
 
-(defn- spiral-matrix [m n & [s]]
-  (let [row (list (map #(+ s %) (range m)))]
-    (if (= 1 n) row
-        (->> (spiral-matrix (dec n) m (+ s m))
-             (apply map list)
-             (map reverse)
-             (concat row)))))
+(defn spiral-matrix [m n & [start]]
+  (if (= 0 n m)
+    '()
+    (let [row (list (map #(+ start %) (range m)))]
+      (if (= 1 n) row
+          (concat row (map reverse
+                           (apply map list
+                                  (spiral-matrix (dec n) m (+ start m)))))))))
 
-(defn spiral [n] (if (zero? n) '() (spiral-matrix n n 1)))
+(defn spiral [n] (spiral-matrix n n 1))

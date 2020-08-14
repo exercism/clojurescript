@@ -1,3 +1,3 @@
 (ns spiral-matrix)
 
-(defn spiral [])
+(defn spiral [n])
