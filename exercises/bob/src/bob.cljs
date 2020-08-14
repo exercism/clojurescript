@@ -1,0 +1,6 @@
+(ns bob
+  (:require [clojure.string :as str]))
+
+(defn response-for [] ;; <--- arguments comes here...
+  ;; your code goes here...
+  )
