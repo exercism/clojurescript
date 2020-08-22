@@ -2,7 +2,7 @@
     "language": "ClojureScript",
     "track_id": "clojurescript",
     "active": true,
-    "blurb": "",
+    "blurb": "ClojureScript is a dialect of Clojure, and a compiler for Clojure that targets JavaScript.",
     "test_pattern": "[Tt]est",
     "solution_pattern": "[Ee]xample",
     "ignore_pattern": "[Ee]xample",
