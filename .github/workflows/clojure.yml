@@ -14,9 +14,11 @@ jobs:
       - uses: DeLaGuardo/setup-clojure@2.0
         with:
           tools-deps: '1.10.1.536'
-      - name: Config Let Test!
-        run: ./bin/config-let
+      - name: Config Let Fetching!
+        run: ./bin/fetch-configlet
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Config Let lint on config file!
+        run: ./bin/configlet lint . 
       - name: Run Test!
         run: clojure -A:test
