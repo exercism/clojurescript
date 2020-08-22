@@ -12,7 +12,7 @@
             "difficulty": 1,
             "unlocked_by": null,
             "auto_approve": true,
-            "core": false,
+            "core": true,
             "uuid": "c2e6b280-1594-47b5-92b2-4a0bd4b09f9f",
             "slug": "hello-world"
         },
@@ -20,15 +20,17 @@
             "topics": null,
             "difficulty": 1,
             "unlocked_by": null,
-            "core": false,
+            "core": true,
             "uuid": "041110bd-bd14-4628-8d83-6ff6155c5306",
             "slug": "two-fer"
         },
         {
-            "topics": null,
+            "topics": [
+                "strings"
+            ],
             "difficulty": 1,
             "unlocked_by": null,
-            "core": false,
+            "core": true,
             "uuid": "0f8d7020-d449-421e-9bc2-4f8e56585a39",
             "slug": "reverse-string"
         },
@@ -36,7 +38,7 @@
             "topics": null,
             "difficulty": 2,
             "unlocked_by": null,
-            "core": false,
+            "core": true,
             "uuid": "7394b16e-66e8-4010-9c61-b8b35fb6219d",
             "slug": "bob"
         },
@@ -45,9 +47,9 @@
                 "math"
             ],
             "difficulty": 1,
-            "unlocked_by": "b373e89f-2afd-4a16-9cb4-3c4fbd541153",
+            "unlocked_by": null,
             "core": false,
-            "uuid": null,
+            "uuid": "c214793e-0971-4aa5-9d0e-e31e3971b0b4",
             "slug": "armstrong-numbers"
         },
         {
@@ -127,7 +129,7 @@
             "difficulty": 3,
             "unlocked_by": null,
             "core": false,
-            "uuid": null,
+            "uuid": "fd8d11f2-f232-4ce1-ae50-234f1306c45e",
             "slug": "phone-number"
         },
         {
