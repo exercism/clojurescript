@@ -2,7 +2,7 @@
   (:require hello-world
             [cljs.test :refer [deftest testing is] :include-macros true]))
 
-(deftest test-hello-world
+(t/deftest test-hello-world
   (testing "Testing hello-world function..."
-    (is (= (hello-world/hello-world)
+    (t/is (= (hello-world/hello-world)
              "Hello, World!"))))
