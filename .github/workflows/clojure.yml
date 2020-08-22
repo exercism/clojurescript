@@ -4,11 +4,15 @@ on: [push, pull_request]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
       - uses: DeLaGuardo/setup-clojure@2.0
         with:
-          tools-deps: '1.10.1.469'
-      - run: clojure -A:test
+          tools-deps: '1.10.1.536'
+      - name: Run Test!
+        run: clojure -A:test
