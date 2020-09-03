@@ -11,10 +11,10 @@ You can not use the `reverse` function, but you can use any of the other core fu
 
 ## Running tests
 
-Run the tests using `clj A:test` command and make them pass:
+Run the tests using `clj -A:test` command and make them pass:
 
 ```
-$ clj A:test
+$ clj -A:test
 
 Testing hello-world-test
 
