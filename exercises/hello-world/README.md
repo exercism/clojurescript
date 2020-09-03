@@ -26,7 +26,7 @@ Write your code in `src/hello_world.cljs`. It should use the namespace `hello-wo
 Run the tests using `clj A:test` command and make them pass:
 
 ```
-$ clj A:test
+$ clj -A:test
 
 Testing hello-world-test
 
