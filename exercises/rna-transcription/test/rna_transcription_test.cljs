@@ -4,19 +4,19 @@
 
 (t/deftest transcribes-cytosine-to-guanine-test
   (t/testing "Transcribes Cytosine to Guanine..."
-    (t/is (= "G" (rna-transcription/to-rna "C")))))
+    (t/is (= "C" (rna-transcription/to-rna "G")))))
 
 (t/deftest transcribes-guanine-to-cytosine-test
   (t/testing "Transcribes Guanine to Cytosine..."
-    (t/is (= "C" (rna-transcription/to-rna "G")))))
+    (t/is (= "G" (rna-transcription/to-rna "C")))))
 
 (t/deftest transcribes-adenine-to-uracil-test
   (t/testing "Transcribes Adenine to Uracil..."
-    (t/is (= "U" (rna-transcription/to-rna "A")))))
+    (t/is (= "A" (rna-transcription/to-rna "T")))))
 
 (t/deftest transcribes-thymine-to-adenine-test
   (t/testing "Transcribes Tymine to Adenine..."
-    (t/is (= "A" (rna-transcription/to-rna "T")))))
+    (t/is (= "U" (rna-transcription/to-rna "A")))))
 
 (t/deftest transcribes-all-nucleotides-test
   (t/testing "Transcribes all nucleotides..."
