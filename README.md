@@ -1,6 +1,6 @@
 # Exercism ClojureScript Track
 
-[![Build Status](https://travis-ci.org/exercism/clojurescript.svg?branch=master)](https://travis-ci.org/exercism/clojurescript)
+[![Configlet Status](https://github.com/exercism/clojurescript/workflows/configlet/badge.svg)]
 
 Exercism exercises in Clojurescript
 
