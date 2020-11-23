@@ -1,0 +1,3 @@
+(ns isogram)
+
+(defn isogram? [])
