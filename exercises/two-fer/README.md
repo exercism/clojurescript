@@ -43,7 +43,7 @@ Ran 1 tests containing 1 assertions.
 Then submit the exercise using:
 
 ```
-$ exercism submit src/two_fer.clj
+$ exercism submit src/two_fer.cljs
 ```
 
 For more detailed instructions and learning resources refer [Exercism's Clojurescript Language Page](http://exercism.io/languages/clojurescript).
