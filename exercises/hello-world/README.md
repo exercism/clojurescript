@@ -18,7 +18,7 @@ If everything goes well, you will be ready to fetch your first real exercise.
 
 Clojurescript Exercises in Exercism use [Clojure CLI](https://clojure.org/guides/getting_started#_clojure_installer_and_cli_tools) to configure and run your code and use some clojure/script dependencies to manage test process.
 
-You will find a test file named `hello_world_test.clj` inside `test` directory.
+You will find a test file named `hello_world_test.cljs` inside `test` directory.
 Write your code in `src/hello_world.cljs`. It should use the namespace `hello-world` so that tests can pick it up.
 
 ### Running tests
@@ -37,7 +37,7 @@ Ran 1 tests containing 1 assertions.
 Then submit the exercise using:
 
 ```
-$ exercism submit src/hello_world.clj
+$ exercism submit src/hello_world.cljs
 ```
 
 For more detailed instructions and learning resources refer [Exercism's Clojurescript Language Page](http://exercism.io/languages/clojurescript).
