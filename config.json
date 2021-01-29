@@ -22,17 +22,12 @@
     {
       "topics": null,
       "difficulty": 1,
-      "unlocked_by": null,
-      "auto_approve": true,
-      "core": true,
       "uuid": "c2e6b280-1594-47b5-92b2-4a0bd4b09f9f",
       "slug": "hello-world"
     },
     {
       "topics": null,
       "difficulty": 1,
-      "unlocked_by": null,
-      "core": true,
       "uuid": "041110bd-bd14-4628-8d83-6ff6155c5306",
       "slug": "two-fer"
     },
@@ -41,16 +36,12 @@
         "strings"
       ],
       "difficulty": 1,
-      "unlocked_by": null,
-      "core": true,
       "uuid": "0f8d7020-d449-421e-9bc2-4f8e56585a39",
       "slug": "reverse-string"
     },
     {
       "topics": null,
       "difficulty": 2,
-      "unlocked_by": null,
-      "core": true,
       "uuid": "7394b16e-66e8-4010-9c61-b8b35fb6219d",
       "slug": "bob"
     },
@@ -59,120 +50,90 @@
         "math"
       ],
       "difficulty": 1,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "c214793e-0971-4aa5-9d0e-e31e3971b0b4",
       "slug": "armstrong-numbers"
     },
     {
       "topics": null,
       "difficulty": 2,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "039c8733-8988-4be9-83f9-c24df3456b7d",
       "slug": "anagram"
     },
     {
       "topics": null,
       "difficulty": 2,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "7c876298-402d-4587-aa2f-1ad9215368ac",
       "slug": "hamming"
     },
     {
       "topics": null,
       "difficulty": 2,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "12b768ab-dc7f-403e-9f81-fd187c2d5aec",
       "slug": "isogram"
     },
     {
       "topics": null,
       "difficulty": 2,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "8efff803-e450-4248-8aa5-a8183ace107f",
       "slug": "nucleotide-count"
     },
     {
       "topics": null,
       "difficulty": 2,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "0ad42bef-c87a-4087-bccb-b1165cdefce8",
       "slug": "raindrops"
     },
     {
       "topics": null,
       "difficulty": 2,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "3d46c4cd-c909-43b6-a8b1-6739e3f38387",
       "slug": "rna-transcription"
     },
     {
       "topics": null,
       "difficulty": 2,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "db38841f-59d8-47fd-bbfd-9114154d407d",
       "slug": "run-length-encoding"
     },
     {
       "topics": null,
       "difficulty": 2,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "817e0ea2-9a8c-4712-af74-f74cfe4dfd1e",
       "slug": "series"
     },
     {
       "topics": null,
       "difficulty": 2,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "49eb2b8d-0d04-4f90-9b09-cb436633a899",
       "slug": "triangle"
     },
     {
       "topics": null,
       "difficulty": 2,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "9bac9221-a7dc-4c8b-9df3-511652dc2bac",
       "slug": "word-count"
     },
     {
       "topics": null,
       "difficulty": 3,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "06580c1b-5c49-4185-b0ad-fb813bb8e1af",
       "slug": "beer-song"
     },
     {
       "topics": null,
       "difficulty": 3,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "7be24221-22b0-4741-bf84-4c470242a388",
       "slug": "isbn-verifier"
     },
     {
       "topics": null,
       "difficulty": 3,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "ecdaf7a8-91dc-489e-a3c6-c111dca481dc",
       "slug": "leap"
     },
     {
       "topics": null,
       "difficulty": 3,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "fd8d11f2-f232-4ce1-ae50-234f1306c45e",
       "slug": "phone-number"
     },
@@ -181,16 +142,12 @@
         "recursivity"
       ],
       "difficulty": 4,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "25e84a52-3231-4a58-a24a-8a20e3736443",
       "slug": "spiral-matrix"
     },
     {
       "topics": null,
       "difficulty": 5,
-      "unlocked_by": null,
-      "core": false,
       "uuid": "60e7564d-af0d-4be8-9475-05f0f6f246a4",
       "slug": "clock"
     }
