@@ -11,6 +11,10 @@
   },
   "blurb": "ClojureScript is a dialect of Clojure, and a compiler for Clojure that targets JavaScript.",
   "version": 3,
+  "online_editor": {
+    "indent_style": "space",
+    "indent_size": 4
+  },
   "test_pattern": "[Tt]est",
   "solution_pattern": "[Ee]xample",
   "ignore_pattern": "[Ee]xample",
