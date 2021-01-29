@@ -1,5 +1,6 @@
 {
   "language": "ClojureScript",
+  "slug": "clojurescript",
   "track_id": "clojurescript",
   "active": true,
   "status": {
