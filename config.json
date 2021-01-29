@@ -23,13 +23,15 @@
       "topics": null,
       "difficulty": 1,
       "uuid": "c2e6b280-1594-47b5-92b2-4a0bd4b09f9f",
-      "slug": "hello-world"
+      "slug": "hello-world",
+      "name": "Hello World"
     },
     {
       "topics": null,
       "difficulty": 1,
       "uuid": "041110bd-bd14-4628-8d83-6ff6155c5306",
-      "slug": "two-fer"
+      "slug": "two-fer",
+      "name": "Two Fer"
     },
     {
       "topics": [
@@ -37,13 +39,15 @@
       ],
       "difficulty": 1,
       "uuid": "0f8d7020-d449-421e-9bc2-4f8e56585a39",
-      "slug": "reverse-string"
+      "slug": "reverse-string",
+      "name": "Reverse String"
     },
     {
       "topics": null,
       "difficulty": 2,
       "uuid": "7394b16e-66e8-4010-9c61-b8b35fb6219d",
-      "slug": "bob"
+      "slug": "bob",
+      "name": "Bob"
     },
     {
       "topics": [
@@ -51,91 +55,106 @@
       ],
       "difficulty": 1,
       "uuid": "c214793e-0971-4aa5-9d0e-e31e3971b0b4",
-      "slug": "armstrong-numbers"
+      "slug": "armstrong-numbers",
+      "name": "Armstrong Numbers"
     },
     {
       "topics": null,
       "difficulty": 2,
       "uuid": "039c8733-8988-4be9-83f9-c24df3456b7d",
-      "slug": "anagram"
+      "slug": "anagram",
+      "name": "Anagram"
     },
     {
       "topics": null,
       "difficulty": 2,
       "uuid": "7c876298-402d-4587-aa2f-1ad9215368ac",
-      "slug": "hamming"
+      "slug": "hamming",
+      "name": "Hamming"
     },
     {
       "topics": null,
       "difficulty": 2,
       "uuid": "12b768ab-dc7f-403e-9f81-fd187c2d5aec",
-      "slug": "isogram"
+      "slug": "isogram",
+      "name": "Isogram"
     },
     {
       "topics": null,
       "difficulty": 2,
       "uuid": "8efff803-e450-4248-8aa5-a8183ace107f",
-      "slug": "nucleotide-count"
+      "slug": "nucleotide-count",
+      "name": "Nucleotide Count"
     },
     {
       "topics": null,
       "difficulty": 2,
       "uuid": "0ad42bef-c87a-4087-bccb-b1165cdefce8",
-      "slug": "raindrops"
+      "slug": "raindrops",
+      "name": "Raindrops"
     },
     {
       "topics": null,
       "difficulty": 2,
       "uuid": "3d46c4cd-c909-43b6-a8b1-6739e3f38387",
-      "slug": "rna-transcription"
+      "slug": "rna-transcription",
+      "name": "Rna Transcription"
     },
     {
       "topics": null,
       "difficulty": 2,
       "uuid": "db38841f-59d8-47fd-bbfd-9114154d407d",
-      "slug": "run-length-encoding"
+      "slug": "run-length-encoding",
+      "name": "Run Length Encoding"
     },
     {
       "topics": null,
       "difficulty": 2,
       "uuid": "817e0ea2-9a8c-4712-af74-f74cfe4dfd1e",
-      "slug": "series"
+      "slug": "series",
+      "name": "Series"
     },
     {
       "topics": null,
       "difficulty": 2,
       "uuid": "49eb2b8d-0d04-4f90-9b09-cb436633a899",
-      "slug": "triangle"
+      "slug": "triangle",
+      "name": "Triangle"
     },
     {
       "topics": null,
       "difficulty": 2,
       "uuid": "9bac9221-a7dc-4c8b-9df3-511652dc2bac",
-      "slug": "word-count"
+      "slug": "word-count",
+      "name": "Word Count"
     },
     {
       "topics": null,
       "difficulty": 3,
       "uuid": "06580c1b-5c49-4185-b0ad-fb813bb8e1af",
-      "slug": "beer-song"
+      "slug": "beer-song",
+      "name": "Beer Song"
     },
     {
       "topics": null,
       "difficulty": 3,
       "uuid": "7be24221-22b0-4741-bf84-4c470242a388",
-      "slug": "isbn-verifier"
+      "slug": "isbn-verifier",
+      "name": "Isbn Verifier"
     },
     {
       "topics": null,
       "difficulty": 3,
       "uuid": "ecdaf7a8-91dc-489e-a3c6-c111dca481dc",
-      "slug": "leap"
+      "slug": "leap",
+      "name": "Leap"
     },
     {
       "topics": null,
       "difficulty": 3,
       "uuid": "fd8d11f2-f232-4ce1-ae50-234f1306c45e",
-      "slug": "phone-number"
+      "slug": "phone-number",
+      "name": "Phone Number"
     },
     {
       "topics": [
@@ -143,13 +162,15 @@
       ],
       "difficulty": 4,
       "uuid": "25e84a52-3231-4a58-a24a-8a20e3736443",
-      "slug": "spiral-matrix"
+      "slug": "spiral-matrix",
+      "name": "Spiral Matrix"
     },
     {
       "topics": null,
       "difficulty": 5,
       "uuid": "60e7564d-af0d-4be8-9475-05f0f6f246a4",
-      "slug": "clock"
+      "slug": "clock",
+      "name": "Clock"
     }
   ]
 }
