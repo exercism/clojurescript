@@ -1,4 +1,4 @@
-(ns armstrong-numbers-test
+(ns isogram-test
   (:require isogram
             [cljs.test :refer [deftest testing is] :as t :include-macros true]))
 
