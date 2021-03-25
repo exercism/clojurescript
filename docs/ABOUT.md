@@ -1,3 +1,5 @@
+# About
+
 ClojureScript is a compiler for Clojure that targets JavaScript. It emits JavaScript code which is compatible with the advanced compilation mode of the Google Closure optimizing compiler.
 
 ## Why Clojure?
