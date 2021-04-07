@@ -18,6 +18,20 @@
   "test_pattern": "[Tt]est",
   "solution_pattern": "[Ee]xample",
   "ignore_pattern": "[Ee]xample",
+  "files": {
+    "solution": [
+      "src/%{snake_slug}.cljs"
+    ],
+    "test": [
+      "test/%{snake_slug}_test.cljs"
+    ],
+    "example": [
+      "src/example.cljs"
+    ],
+    "exemplar": [
+      ".meta/src/exemplar.cljs"
+    ]
+  },
   "exercises": {
     "concept": [],
     "practice": [
