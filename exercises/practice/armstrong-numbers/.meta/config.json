@@ -7,8 +7,12 @@
     "iiska"
   ],
   "files": {
-    "solution": [],
-    "test": [],
+    "solution": [
+      "src/armstrong_numbers.cljs"
+    ],
+    "test": [
+      "test/armstrong_numbers_test.cljs"
+    ],
     "example": [
       ".meta/src/example.cljs"
     ]

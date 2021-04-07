@@ -7,8 +7,12 @@
     "iiska"
   ],
   "files": {
-    "solution": [],
-    "test": [],
+    "solution": [
+      "src/rna_transcription.cljs"
+    ],
+    "test": [
+      "test/rna_transcription_test.cljs"
+    ],
     "example": [
       ".meta/src/example.cljs"
     ]

@@ -7,8 +7,12 @@
     "iiska"
   ],
   "files": {
-    "solution": [],
-    "test": [],
+    "solution": [
+      "src/run_length_encoding.cljs"
+    ],
+    "test": [
+      "test/run_length_encoding_test.cljs"
+    ],
     "example": [
       ".meta/src/example.cljs"
     ]

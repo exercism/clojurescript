@@ -7,8 +7,12 @@
     "iiska"
   ],
   "files": {
-    "solution": [],
-    "test": [],
+    "solution": [
+      "src/clock.cljs"
+    ],
+    "test": [
+      "test/clock_test.cljs"
+    ],
     "example": [
       ".meta/src/example.cljs"
     ]
