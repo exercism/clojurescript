@@ -7,8 +7,12 @@
     "iiska"
   ],
   "files": {
-    "solution": [],
-    "test": [],
+    "solution": [
+      "src/spiral_matrix.cljs"
+    ],
+    "test": [
+      "test/spiral_matrix_test.cljs"
+    ],
     "example": [
       ".meta/src/example.cljs"
     ]

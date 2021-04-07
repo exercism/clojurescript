@@ -7,8 +7,12 @@
     "iiska"
   ],
   "files": {
-    "solution": [],
-    "test": [],
+    "solution": [
+      "src/isbn_verifier.cljs"
+    ],
+    "test": [
+      "test/isbn_verifier_test.cljs"
+    ],
     "example": [
       ".meta/src/example.cljs"
     ]

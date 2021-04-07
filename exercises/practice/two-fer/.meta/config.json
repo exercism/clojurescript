@@ -8,8 +8,12 @@
     "michaelrbock"
   ],
   "files": {
-    "solution": [],
-    "test": [],
+    "solution": [
+      "src/two_fer.cljs"
+    ],
+    "test": [
+      "test/two_fer_test.cljs"
+    ],
     "example": [
       ".meta/src/example.cljs"
     ]

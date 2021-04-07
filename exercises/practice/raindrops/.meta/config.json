@@ -7,8 +7,12 @@
     "iiska"
   ],
   "files": {
-    "solution": [],
-    "test": [],
+    "solution": [
+      "src/raindrops.cljs"
+    ],
+    "test": [
+      "test/raindrops_test.cljs"
+    ],
     "example": [
       ".meta/src/example.cljs"
     ]

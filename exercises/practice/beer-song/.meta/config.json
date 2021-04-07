@@ -7,8 +7,12 @@
     "iiska"
   ],
   "files": {
-    "solution": [],
-    "test": [],
+    "solution": [
+      "src/beer_song.cljs"
+    ],
+    "test": [
+      "test/beer_song_test.cljs"
+    ],
     "example": [
       ".meta/src/example.cljs"
     ]
