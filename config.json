@@ -229,6 +229,15 @@
         "prerequisites": [],
         "slug": "clock",
         "name": "Clock"
+      },
+      {
+        "slug": "allergies",
+        "name": "Allergies",
+        "uuid": "0793ac96-5280-4f0d-a08a-aa57ad9b9946",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4,
+        "topics": null
       }
     ]
   },
