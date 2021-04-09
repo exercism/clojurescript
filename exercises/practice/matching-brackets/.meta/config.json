@@ -1,0 +1,16 @@
+{
+  "blurb": "Make sure the brackets and braces all match.",
+  "authors": [],
+  "files": {
+    "solution": [
+      "src/{snake_slug}.cljs"
+    ],
+    "test": [
+      "test/{snake_slug}_test.cljs"
+    ],
+    "example": [
+      "src/example.clj"
+    ]
+  },
+  "source": "Ginna Baker"
+}

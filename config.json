@@ -238,6 +238,15 @@
         "prerequisites": [],
         "difficulty": 4,
         "topics": null
+      },
+      {
+        "slug": "matching-brackets",
+        "name": "Matching Brackets",
+        "uuid": "38eabf83-ebcb-4385-b409-1b2cc0540138",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7,
+        "topics": null
       }
     ]
   },
