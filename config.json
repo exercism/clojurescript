@@ -247,6 +247,15 @@
         "prerequisites": [],
         "difficulty": 7,
         "topics": null
+      },
+      {
+        "slug": "binary-search",
+        "name": "Binary Search",
+        "uuid": "5463a96a-c357-4847-ab86-e35464a01a49",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3,
+        "topics": null
       }
     ]
   },
