@@ -256,6 +256,28 @@
         "prerequisites": [],
         "difficulty": 3,
         "topics": null
+      },
+      {
+        "slug": "binary-search-tree",
+        "name": "Binary Search Tree",
+        "uuid": "202b0eba-705c-4654-804b-b086493b6901",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3,
+        "topics": [
+          "data structures"
+        ]
+      },
+      {
+        "slug": "pascals-triangle",
+        "name": "Pascals Triangle",
+        "uuid": "e4e8d5a7-26ce-4153-899c-6bea61c8677d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3,
+        "topics": [
+          "math"
+        ]
       }
     ]
   },
