@@ -229,6 +229,55 @@
         "prerequisites": [],
         "slug": "clock",
         "name": "Clock"
+      },
+      {
+        "slug": "allergies",
+        "name": "Allergies",
+        "uuid": "0793ac96-5280-4f0d-a08a-aa57ad9b9946",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4,
+        "topics": null
+      },
+      {
+        "slug": "matching-brackets",
+        "name": "Matching Brackets",
+        "uuid": "38eabf83-ebcb-4385-b409-1b2cc0540138",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7,
+        "topics": null
+      },
+      {
+        "slug": "binary-search",
+        "name": "Binary Search",
+        "uuid": "5463a96a-c357-4847-ab86-e35464a01a49",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3,
+        "topics": null
+      },
+      {
+        "slug": "binary-search-tree",
+        "name": "Binary Search Tree",
+        "uuid": "202b0eba-705c-4654-804b-b086493b6901",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3,
+        "topics": [
+          "data structures"
+        ]
+      },
+      {
+        "slug": "pascals-triangle",
+        "name": "Pascals Triangle",
+        "uuid": "e4e8d5a7-26ce-4153-899c-6bea61c8677d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3,
+        "topics": [
+          "math"
+        ]
       }
     ]
   },
