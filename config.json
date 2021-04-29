@@ -13,7 +13,9 @@
   "version": 3,
   "online_editor": {
     "indent_style": "space",
-    "indent_size": 4
+    "indent_size": 4,
+    "ace_editor_language": "clojurescript",
+    "highlightjs_language": "clojurescript"
   },
   "test_pattern": "[Tt]est",
   "solution_pattern": "[Ee]xample",
