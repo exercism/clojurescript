@@ -3,10 +3,10 @@
   "authors": [],
   "files": {
     "solution": [
-      "src/{snake_slug}.cljs"
+      "src/pascals_triangle.cljs"
     ],
     "test": [
-      "test/{snake_slug}_test.cljs"
+      "test/pascals_triangle_test.cljs"
     ],
     "example": [
       "src/example-traditional.cljs",

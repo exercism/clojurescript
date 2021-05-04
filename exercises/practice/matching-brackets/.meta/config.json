@@ -3,13 +3,13 @@
   "authors": [],
   "files": {
     "solution": [
-      "src/{snake_slug}.cljs"
+      "src/matching_brackets.cljs"
     ],
     "test": [
-      "test/{snake_slug}_test.cljs"
+      "test/matching_brackets_test.cljs"
     ],
     "example": [
-      "src/example.clj"
+      "src/example.cljs"
     ]
   },
   "source": "Ginna Baker"
