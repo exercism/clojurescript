@@ -3,10 +3,10 @@
   "authors": [],
   "files": {
     "solution": [
-      "src/{snake_slug}.cljs"
+      "src/binary_search.cljs"
     ],
     "test": [
-      "test/{snake_slug}_test.cljs"
+      "test/binary_search_test.cljs"
     ],
     "example": [
       "src/example.cljs"
