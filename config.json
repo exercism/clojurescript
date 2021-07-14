@@ -19,9 +19,6 @@
   "test_runner": {
     "average_run_time": 12.0
   },
-  "test_pattern": "[Tt]est",
-  "solution_pattern": "[Ee]xample",
-  "ignore_pattern": "[Ee]xample",
   "files": {
     "solution": [
       "src/%{snake_slug}.cljs"
