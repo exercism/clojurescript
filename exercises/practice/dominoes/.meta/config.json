@@ -1,0 +1,18 @@
+{
+  "blurb": "Make a chain of dominoes.",
+  "authors": [],
+  "contributors": [
+    "LeaveNhA"
+  ],
+  "files": {
+    "solution": [
+      "src/dominoes.cljs"
+    ],
+    "test": [
+      "test/dominoes_test.cljs"
+    ],
+    "example": [
+      ".meta/src/example.cljs"
+    ]
+  }
+}
