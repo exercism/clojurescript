@@ -260,6 +260,15 @@
                 "topics": [
                     "math"
                 ]
+            },
+            {
+                "slug": "luhn",
+                "name": "Luhn",
+                "uuid": "381d4416-18da-448d-a900-96bd76360be7",
+                "practices": [],
+                "prerequisites": [],
+                "difficulty": 5,
+                "topics": null
             }
         ]
     },
