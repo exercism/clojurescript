@@ -1,5 +1,5 @@
 (ns track-test
-  (:require [cljs.test :refer [deftest testing is] :include-macros true]))
+  (:require [cljs.test :refer [deftest testing is] :as t :include-macros true]))
 
 (deftest track-general-test
   (testing "Track general tests are running..."
