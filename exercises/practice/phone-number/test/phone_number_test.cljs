@@ -3,7 +3,7 @@
             [cljs.test :refer [deftest testing is] :as t :include-macros true]))
 
 (deftest cleans-number
-  (is (= "1234567890" (phone-number/number "(123) 456-7890"))))
+  (is (= "2345678901" (phone-number/number "(234) 567-8901"))))
 
 (deftest cleans-number-with-dots
   (is (= "5558675309" (phone-number/number "555.867.5309"))))
