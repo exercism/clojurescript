@@ -28,7 +28,8 @@ middle element or, if the search key is greater, on the sub-array to the
 right.
 
 If the remaining array to be searched is empty, then the key cannot be
-found in the array and a special "not found" indication is returned.
+found in the array and an Error with the text "not found" should be 
+thrown.
 
 A binary search halves the number of items to check with each iteration,
 so locating an item (or determining its absence) takes logarithmic time.
