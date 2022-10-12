@@ -137,7 +137,7 @@
         "practices": [],
         "prerequisites": [],
         "slug": "rna-transcription",
-        "name": "Rna Transcription"
+        "name": "RNA Transcription"
       },
       {
         "topics": null,
@@ -146,7 +146,7 @@
         "practices": [],
         "prerequisites": [],
         "slug": "run-length-encoding",
-        "name": "Run Length Encoding"
+        "name": "Run-Length Encoding"
       },
       {
         "topics": null,
@@ -191,7 +191,7 @@
         "practices": [],
         "prerequisites": [],
         "slug": "isbn-verifier",
-        "name": "Isbn Verifier"
+        "name": "ISBN Verifier"
       },
       {
         "topics": null,
@@ -271,7 +271,7 @@
       },
       {
         "slug": "pascals-triangle",
-        "name": "Pascals Triangle",
+        "name": "Pascal's Triangle",
         "uuid": "e4e8d5a7-26ce-4153-899c-6bea61c8677d",
         "practices": [],
         "prerequisites": [],
