@@ -316,6 +316,17 @@
         "topics": null
       },
       {
+        "slug": "pov",
+        "name": "Pov",
+        "uuid": "50b63a14-c022-4f1f-8cdc-6383eef657d3",
+        "practices": [],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 10
+      },
+      {
         "slug": "meetup",
         "name": "Meetup",
         "uuid": "ba096a09-dda5-45ae-bb90-51fe79b48c70",
