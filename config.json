@@ -316,6 +316,18 @@
         "topics": null
       },
       {
+        "slug": "robot-simulator",
+        "name": "Robot Simulator",
+        "uuid": "e645a137-8235-47b1-87ee-e8e80d3ab251",
+        "practices": [
+          "conditionals"
+        ],
+        "prerequisites": [
+          "conditionals"
+        ],
+        "difficulty": 6
+      },
+      {
         "slug": "scrabble-score",
         "name": "Scrabble Score",
         "uuid": "6f2ac06a-8ae2-4185-9205-96bc1427c2fb",
