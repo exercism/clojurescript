@@ -314,6 +314,17 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "strain",
+        "name": "Strain",
+        "uuid": "8f511644-4aa1-4f9a-b5e5-5e07eaa7e9e3",
+        "practices": [],
+        "prerequisites": [
+          "conditionals",
+          "numbers"
+        ],
+        "difficulty": 2
       }
     ]
   },
