@@ -316,6 +316,16 @@
         "topics": null
       },
       {
+        "slug": "kindergarten-garden",
+        "name": "Kindergarten Garden",
+        "uuid": "5ad3662f-1a44-48ac-bf9a-824ecc226e27",
+        "practices": [],
+        "prerequisites": [
+          "strings"
+        ],
+        "difficulty": 3
+      },
+      {
         "slug": "pig-latin",
         "name": "Pig Latin",
         "uuid": "e6fec95d-cd13-4cf9-9ddb-8111e1c229b7",
