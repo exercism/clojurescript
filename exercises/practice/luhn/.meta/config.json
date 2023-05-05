@@ -13,7 +13,7 @@
       "test/luhn_test.cljs"
     ],
     "example": [
-      ".meta/src/example.clj"
+      ".meta/src/example.cljs"
     ]
   },
   "source": "The Luhn Algorithm on Wikipedia",
