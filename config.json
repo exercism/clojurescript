@@ -314,6 +314,16 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "binary",
+        "name": "Binary",
+        "uuid": "6cac37b4-a458-4b65-9a07-ac3c647a2880",
+        "practices": [],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 3
       }
     ]
   },
