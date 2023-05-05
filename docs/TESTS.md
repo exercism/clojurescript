@@ -39,7 +39,7 @@ Ran 14 tests containing 14 assertions.
 
 To run an exercise's tests with Clojure CLI, simply call:
 ``` bash
-$ clojure -A:test
+$ clojure -M:test
 
 Testing bob-tests
 
