@@ -314,6 +314,18 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "octal",
+        "name": "Octal",
+        "uuid": "52ada236-59ee-4531-9d8c-11ea6a07c046",
+        "practices": [
+          "numbers"
+        ],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 4
       }
     ]
   },
