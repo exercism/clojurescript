@@ -9,8 +9,7 @@
       "test/pascals_triangle_test.cljs"
     ],
     "example": [
-      "src/example-traditional.cljs",
-      "src/example-lazy.cljs"
+      ".meta/src/example.cljs"
     ]
   },
   "source": "Pascal's Triangle at Wolfram Math World",
