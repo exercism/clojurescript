@@ -314,6 +314,16 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "hexadecimal",
+        "name": "Hexadecimal",
+        "uuid": "ebda9961-2d0b-4773-b7a8-2ba24895a461",
+        "practices": [],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 3
       }
     ]
   },
