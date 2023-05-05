@@ -1,6 +1,6 @@
 (ns two-fer-test
   (:require two-fer
-            [cljs.test :refer [deftest testing is] :include-macros true]))
+            [cljs.test :refer [deftest testing is] :as t :include-macros true]))
 
 (deftest two-fer-no-args-test
   (let [no-args-result "One for you, one for me."

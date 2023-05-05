@@ -1,278 +1,328 @@
 {
-    "language": "ClojureScript",
-    "slug": "clojurescript",
-    "track_id": "clojurescript",
-    "active": true,
-    "status": {
-        "concept_exercises": false,
-        "test_runner": false,
-        "representer": false,
-        "analyzer": false
-    },
-    "blurb": "ClojureScript is a dialect of Clojure, and a compiler for Clojure that targets JavaScript.",
-    "version": 3,
-    "online_editor": {
-        "indent_style": "space",
-        "indent_size": 4
-    },
-    "test_pattern": "[Tt]est",
-    "solution_pattern": "[Ee]xample",
-    "ignore_pattern": "[Ee]xample",
-    "files": {
-        "solution": [
-            "src/%{snake_slug}.cljs"
+  "language": "ClojureScript",
+  "slug": "clojurescript",
+  "track_id": "clojurescript",
+  "active": true,
+  "status": {
+    "concept_exercises": false,
+    "test_runner": true,
+    "representer": false,
+    "analyzer": false
+  },
+  "blurb": "ClojureScript is a dialect of Clojure, and a compiler for Clojure that targets JavaScript.",
+  "version": 3,
+  "online_editor": {
+    "indent_style": "space",
+    "indent_size": 4,
+    "highlightjs_language": "clojure"
+  },
+  "test_runner": {
+    "average_run_time": 3.0
+  },
+  "files": {
+    "solution": [
+      "src/%{snake_slug}.cljs"
+    ],
+    "test": [
+      "test/%{snake_slug}_test.cljs"
+    ],
+    "example": [
+      "src/example.cljs"
+    ],
+    "exemplar": [
+      ".meta/src/exemplar.cljs"
+    ]
+  },
+  "exercises": {
+    "concept": [],
+    "practice": [
+      {
+        "topics": null,
+        "difficulty": 1,
+        "uuid": "c2e6b280-1594-47b5-92b2-4a0bd4b09f9f",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "hello-world",
+        "name": "Hello World"
+      },
+      {
+        "topics": null,
+        "difficulty": 1,
+        "uuid": "041110bd-bd14-4628-8d83-6ff6155c5306",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "two-fer",
+        "name": "Two Fer"
+      },
+      {
+        "topics": [
+          "strings"
         ],
-        "test": [
-            "test/%{snake_slug}_test.cljs"
+        "difficulty": 1,
+        "uuid": "0f8d7020-d449-421e-9bc2-4f8e56585a39",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "reverse-string",
+        "name": "Reverse String"
+      },
+      {
+        "topics": null,
+        "difficulty": 2,
+        "uuid": "7394b16e-66e8-4010-9c61-b8b35fb6219d",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "bob",
+        "name": "Bob"
+      },
+      {
+        "topics": [
+          "math"
         ],
-        "example": [
-            "src/example.cljs"
+        "difficulty": 1,
+        "uuid": "c214793e-0971-4aa5-9d0e-e31e3971b0b4",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "armstrong-numbers",
+        "name": "Armstrong Numbers"
+      },
+      {
+        "topics": null,
+        "difficulty": 2,
+        "uuid": "039c8733-8988-4be9-83f9-c24df3456b7d",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "anagram",
+        "name": "Anagram"
+      },
+      {
+        "topics": null,
+        "difficulty": 2,
+        "uuid": "7c876298-402d-4587-aa2f-1ad9215368ac",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "hamming",
+        "name": "Hamming"
+      },
+      {
+        "topics": null,
+        "difficulty": 2,
+        "uuid": "12b768ab-dc7f-403e-9f81-fd187c2d5aec",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "isogram",
+        "name": "Isogram"
+      },
+      {
+        "topics": null,
+        "difficulty": 2,
+        "uuid": "8efff803-e450-4248-8aa5-a8183ace107f",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "nucleotide-count",
+        "name": "Nucleotide Count"
+      },
+      {
+        "topics": null,
+        "difficulty": 2,
+        "uuid": "0ad42bef-c87a-4087-bccb-b1165cdefce8",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "raindrops",
+        "name": "Raindrops"
+      },
+      {
+        "topics": null,
+        "difficulty": 2,
+        "uuid": "3d46c4cd-c909-43b6-a8b1-6739e3f38387",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "rna-transcription",
+        "name": "RNA Transcription"
+      },
+      {
+        "topics": null,
+        "difficulty": 2,
+        "uuid": "db38841f-59d8-47fd-bbfd-9114154d407d",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "run-length-encoding",
+        "name": "Run-Length Encoding"
+      },
+      {
+        "topics": null,
+        "difficulty": 2,
+        "uuid": "817e0ea2-9a8c-4712-af74-f74cfe4dfd1e",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "series",
+        "name": "Series"
+      },
+      {
+        "topics": null,
+        "difficulty": 2,
+        "uuid": "49eb2b8d-0d04-4f90-9b09-cb436633a899",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "triangle",
+        "name": "Triangle"
+      },
+      {
+        "topics": null,
+        "difficulty": 2,
+        "uuid": "9bac9221-a7dc-4c8b-9df3-511652dc2bac",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "word-count",
+        "name": "Word Count"
+      },
+      {
+        "topics": null,
+        "difficulty": 3,
+        "uuid": "06580c1b-5c49-4185-b0ad-fb813bb8e1af",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "beer-song",
+        "name": "Beer Song"
+      },
+      {
+        "topics": null,
+        "difficulty": 3,
+        "uuid": "7be24221-22b0-4741-bf84-4c470242a388",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "isbn-verifier",
+        "name": "ISBN Verifier"
+      },
+      {
+        "topics": null,
+        "difficulty": 3,
+        "uuid": "ecdaf7a8-91dc-489e-a3c6-c111dca481dc",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "leap",
+        "name": "Leap"
+      },
+      {
+        "topics": null,
+        "difficulty": 3,
+        "uuid": "fd8d11f2-f232-4ce1-ae50-234f1306c45e",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "phone-number",
+        "name": "Phone Number"
+      },
+      {
+        "topics": [
+          "recursivity"
         ],
-        "exemplar": [
-            ".meta/src/exemplar.cljs"
+        "difficulty": 4,
+        "uuid": "25e84a52-3231-4a58-a24a-8a20e3736443",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "spiral-matrix",
+        "name": "Spiral Matrix"
+      },
+      {
+        "topics": null,
+        "difficulty": 5,
+        "uuid": "60e7564d-af0d-4be8-9475-05f0f6f246a4",
+        "practices": [],
+        "prerequisites": [],
+        "slug": "clock",
+        "name": "Clock"
+      },
+      {
+        "slug": "allergies",
+        "name": "Allergies",
+        "uuid": "0793ac96-5280-4f0d-a08a-aa57ad9b9946",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4,
+        "topics": null
+      },
+      {
+        "slug": "matching-brackets",
+        "name": "Matching Brackets",
+        "uuid": "38eabf83-ebcb-4385-b409-1b2cc0540138",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7,
+        "topics": null
+      },
+      {
+        "slug": "binary-search",
+        "name": "Binary Search",
+        "uuid": "5463a96a-c357-4847-ab86-e35464a01a49",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3,
+        "topics": null
+      },
+      {
+        "slug": "binary-search-tree",
+        "name": "Binary Search Tree",
+        "uuid": "202b0eba-705c-4654-804b-b086493b6901",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3,
+        "topics": [
+          "data structures"
         ]
-    },
-    "exercises": {
-        "concept": [],
-        "practice": [
-            {
-                "topics": null,
-                "difficulty": 1,
-                "uuid": "c2e6b280-1594-47b5-92b2-4a0bd4b09f9f",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "hello-world",
-                "name": "Hello World"
-            },
-            {
-                "topics": null,
-                "difficulty": 1,
-                "uuid": "041110bd-bd14-4628-8d83-6ff6155c5306",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "two-fer",
-                "name": "Two Fer"
-            },
-            {
-                "topics": [
-                    "strings"
-                ],
-                "difficulty": 1,
-                "uuid": "0f8d7020-d449-421e-9bc2-4f8e56585a39",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "reverse-string",
-                "name": "Reverse String"
-            },
-            {
-                "topics": null,
-                "difficulty": 2,
-                "uuid": "7394b16e-66e8-4010-9c61-b8b35fb6219d",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "bob",
-                "name": "Bob"
-            },
-            {
-                "topics": [
-                    "math"
-                ],
-                "difficulty": 1,
-                "uuid": "c214793e-0971-4aa5-9d0e-e31e3971b0b4",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "armstrong-numbers",
-                "name": "Armstrong Numbers"
-            },
-            {
-                "topics": null,
-                "difficulty": 2,
-                "uuid": "039c8733-8988-4be9-83f9-c24df3456b7d",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "anagram",
-                "name": "Anagram"
-            },
-            {
-                "topics": null,
-                "difficulty": 2,
-                "uuid": "7c876298-402d-4587-aa2f-1ad9215368ac",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "hamming",
-                "name": "Hamming"
-            },
-            {
-                "topics": null,
-                "difficulty": 2,
-                "uuid": "12b768ab-dc7f-403e-9f81-fd187c2d5aec",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "isogram",
-                "name": "Isogram"
-            },
-            {
-                "topics": null,
-                "difficulty": 2,
-                "uuid": "8efff803-e450-4248-8aa5-a8183ace107f",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "nucleotide-count",
-                "name": "Nucleotide Count"
-            },
-            {
-                "topics": null,
-                "difficulty": 2,
-                "uuid": "0ad42bef-c87a-4087-bccb-b1165cdefce8",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "raindrops",
-                "name": "Raindrops"
-            },
-            {
-                "topics": null,
-                "difficulty": 2,
-                "uuid": "3d46c4cd-c909-43b6-a8b1-6739e3f38387",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "rna-transcription",
-                "name": "Rna Transcription"
-            },
-            {
-                "topics": null,
-                "difficulty": 2,
-                "uuid": "db38841f-59d8-47fd-bbfd-9114154d407d",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "run-length-encoding",
-                "name": "Run Length Encoding"
-            },
-            {
-                "topics": null,
-                "difficulty": 2,
-                "uuid": "817e0ea2-9a8c-4712-af74-f74cfe4dfd1e",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "series",
-                "name": "Series"
-            },
-            {
-                "topics": null,
-                "difficulty": 2,
-                "uuid": "49eb2b8d-0d04-4f90-9b09-cb436633a899",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "triangle",
-                "name": "Triangle"
-            },
-            {
-                "topics": null,
-                "difficulty": 2,
-                "uuid": "9bac9221-a7dc-4c8b-9df3-511652dc2bac",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "word-count",
-                "name": "Word Count"
-            },
-            {
-                "topics": null,
-                "difficulty": 3,
-                "uuid": "06580c1b-5c49-4185-b0ad-fb813bb8e1af",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "beer-song",
-                "name": "Beer Song"
-            },
-            {
-                "topics": null,
-                "difficulty": 3,
-                "uuid": "7be24221-22b0-4741-bf84-4c470242a388",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "isbn-verifier",
-                "name": "Isbn Verifier"
-            },
-            {
-                "topics": null,
-                "difficulty": 3,
-                "uuid": "ecdaf7a8-91dc-489e-a3c6-c111dca481dc",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "leap",
-                "name": "Leap"
-            },
-            {
-                "topics": null,
-                "difficulty": 3,
-                "uuid": "fd8d11f2-f232-4ce1-ae50-234f1306c45e",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "phone-number",
-                "name": "Phone Number"
-            },
-            {
-                "topics": [
-                    "recursivity"
-                ],
-                "difficulty": 4,
-                "uuid": "25e84a52-3231-4a58-a24a-8a20e3736443",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "spiral-matrix",
-                "name": "Spiral Matrix"
-            },
-            {
-                "topics": null,
-                "difficulty": 5,
-                "uuid": "60e7564d-af0d-4be8-9475-05f0f6f246a4",
-                "practices": [],
-                "prerequisites": [],
-                "slug": "clock",
-                "name": "Clock"
-            },
-            {
-                "slug": "allergies",
-                "name": "Allergies",
-                "uuid": "0793ac96-5280-4f0d-a08a-aa57ad9b9946",
-                "practices": [],
-                "prerequisites": [],
-                "difficulty": 4,
-                "topics": null
-            },
-            {
-                "slug": "dominoes",
-                "name": "Dominoes",
-                "uuid": "1c44cacd-6a2d-4f9a-813c-2e1e59a7fe0d",
-                "practices": [],
-                "prerequisites": ["numbers", "booleans"],
-                "difficulty": 4,
-                "topics": [
-                    "graph_theory", "games"
-                ]
-            },
-            {
-                "slug": "largest-series-product",
-                "name": "Largest Series Product",
-                "uuid": "62f5e6c7-7c94-4fc8-9b56-b1723e09e9a0",
-                "practices": [],
-                "prerequisites": [],
-                "difficulty": 4,
-                "topics": [
-                    "math"
-                ]
-            },
-            {
-                "slug": "luhn",
-                "name": "Luhn",
-                "uuid": "e934a981-f3ca-419c-94cd-7d0354e553e5",
-                "practices": [],
-                "prerequisites": [],
-                "difficulty": 5,
-                "topics": null
-            }
+      },
+      {
+        "slug": "pascals-triangle",
+        "name": "Pascal's Triangle",
+        "uuid": "e4e8d5a7-26ce-4153-899c-6bea61c8677d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3,
+        "topics": [
+          "math"
         ]
-    },
-    "concepts": [],
-    "key_features": [],
-    "tags": []
+      },
+      {
+        "slug": "dominoes",
+        "name": "Dominoes",
+        "uuid": "1c44cacd-6a2d-4f9a-813c-2e1e59a7fe0d",
+        "practices": [],
+        "prerequisites": ["numbers", "booleans"],
+        "difficulty": 4,
+        "topics": [
+          "graph_theory",
+          "games"
+        ]
+      },
+      {
+        "slug": "largest-series-product",
+        "name": "Largest Series Product",
+        "uuid": "62f5e6c7-7c94-4fc8-9b56-b1723e09e9a0",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4,
+        "topics": [
+          "math"
+        ]
+      },
+      {
+        "slug": "luhn",
+        "name": "Luhn",
+        "uuid": "e934a981-f3ca-419c-94cd-7d0354e553e5",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5,
+        "topics": null
+      }
+    ]
+  },
+  "concepts": [],
+  "key_features": [],
+  "tags": [
+    "paradigm/declarative",
+    "paradigm/functional",
+    "typing/dynamic",
+    "execution_mode/compiled",
+    "platform/web",
+    "used_for/frontends",
+    "used_for/web_development"
+  ]
 }

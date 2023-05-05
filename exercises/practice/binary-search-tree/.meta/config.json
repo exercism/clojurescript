@@ -1,5 +1,4 @@
 {
-  "blurb": "Insert and search for numbers in a binary tree.",
   "authors": [],
   "files": {
     "solution": [
@@ -12,6 +11,7 @@
       "src/example.cljs"
     ]
   },
+  "blurb": "Insert and search for numbers in a binary tree.",
   "source": "Josh Cheek",
   "source_url": "https://twitter.com/josh_cheek"
 }
