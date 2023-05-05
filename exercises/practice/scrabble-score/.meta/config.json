@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "ErikSchierboom"
+  ],
+  "files": {
+    "solution": [
+      "src/scrabble_score.cljs"
+    ],
+    "test": [
+      "test/scrabble_score_test.cljs"
+    ],
+    "example": [
+      ".meta/src/example.cljs"
+    ]
+  },
+  "blurb": "Given a word, compute the Scrabble score for that word.",
+  "source": "Inspired by the Extreme Startup game",
+  "source_url": "https://github.com/rchatley/extreme_startup"
+}
