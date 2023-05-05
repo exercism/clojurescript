@@ -285,7 +285,10 @@
         "name": "Dominoes",
         "uuid": "1c44cacd-6a2d-4f9a-813c-2e1e59a7fe0d",
         "practices": [],
-        "prerequisites": ["numbers", "booleans"],
+        "prerequisites": [
+          "numbers",
+          "booleans"
+        ],
         "difficulty": 4,
         "topics": [
           "graph_theory",
