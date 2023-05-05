@@ -314,6 +314,17 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "sieve",
+        "name": "Sieve",
+        "uuid": "6e25b082-0588-42ca-857c-7a9911088d0a",
+        "practices": [],
+        "prerequisites": [
+          "vectors",
+          "numbers"
+        ],
+        "difficulty": 5
       }
     ]
   },
