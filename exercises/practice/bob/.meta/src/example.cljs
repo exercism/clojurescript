@@ -5,10 +5,8 @@
 
 (defn- question?   [msg] (= \? (last msg)))
 
-(defn- has-letter? [msg] (some #(Character/isLetter (int %)) msg))
-
 (defn- shouting?   [msg] (and (= msg (str/upper-case msg))
-                              (has-letter? msg)))
+                              (not= msg (str/lower-case msg))))
 
 (defn- forceful-question? [msg]
   (and (shouting? msg) (question? msg)))
