@@ -316,6 +316,19 @@
         "topics": null
       },
       {
+        "slug": "protein-translation",
+        "name": "Protein Translation",
+        "uuid": "f00474f8-121c-43d9-9a78-d5266b298218",
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 2
+      },
+      {
         "slug": "queen-attack",
         "name": "Queen Attack",
         "uuid": "f3d3d890-d770-452c-b084-1fba0ce9eb52",
