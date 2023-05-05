@@ -22,15 +22,5 @@ jobs:
           chmod +x linux-install-1.11.1.1273.sh
           sudo ./linux-install-1.11.1.1273.sh
 
-      - name: Cache clojure dependencies
-        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8
-        with:
-          path: |
-            ~/.m2/repository
-            ~/.gitlibs
-            ~/.deps.clj
-          key: cljdeps-${{ hashFiles('deps.edn') }}
-          restore-keys: cljdeps-
-
       - name: Verify all exercises
         run: ./bin/verify-exercises
