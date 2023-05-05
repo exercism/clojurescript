@@ -314,6 +314,18 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "complex-numbers",
+        "name": "Complex Numbers",
+        "uuid": "3e3ac35a-6d33-4848-9296-ff3eb0b73f6e",
+        "practices": [
+          "numbers"
+        ],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 2
       }
     ]
   },
