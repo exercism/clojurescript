@@ -314,6 +314,19 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "acronym",
+        "name": "Acronym",
+        "uuid": "e6147a0d-3000-4b3c-9a60-3f8800730691",
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [
+          "strings",
+          "booleans"
+        ],
+        "difficulty": 2
       }
     ]
   },
