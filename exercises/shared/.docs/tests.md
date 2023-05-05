@@ -3,7 +3,7 @@
 To use the CLI to run the exercise's test, run the following command from the exercise's directory:
 
 ```bash
-clojure -A:test
+clojure -M:test
 ```
 
 ## REPL
