@@ -314,6 +314,16 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "accumulate",
+        "name": "Accumulate",
+        "uuid": "204845d0-73b3-4f68-b8d7-05af5bbff118",
+        "practices": [],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 2
       }
     ]
   },
