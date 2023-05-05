@@ -324,6 +324,153 @@
           "numbers"
         ],
         "difficulty": 4
+      },
+      {
+        "slug": "kindergarten-garden",
+        "name": "Kindergarten Garden",
+        "uuid": "5ad3662f-1a44-48ac-bf9a-824ecc226e27",
+        "practices": [],
+        "prerequisites": [
+          "strings"
+        ],
+        "difficulty": 3
+      },
+      {
+        "slug": "pig-latin",
+        "name": "Pig Latin",
+        "uuid": "e6fec95d-cd13-4cf9-9ddb-8111e1c229b7",
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [
+          "strings"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "poker",
+        "name": "Poker",
+        "uuid": "fcf475d8-6148-4cdc-817e-605edcf326b8",
+        "practices": [],
+        "prerequisites": [
+          "conditionals",
+          "strings"
+        ],
+        "difficulty": 7
+      },
+      {
+        "slug": "prime-factors",
+        "name": "Prime Factors",
+        "uuid": "5225e405-8095-45ec-ab11-f4686e9003cf",
+        "practices": [],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 3
+      },
+      {
+        "slug": "protein-translation",
+        "name": "Protein Translation",
+        "uuid": "f00474f8-121c-43d9-9a78-d5266b298218",
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "queen-attack",
+        "name": "Queen Attack",
+        "uuid": "f3d3d890-d770-452c-b084-1fba0ce9eb52",
+        "practices": [],
+        "prerequisites": [
+          "booleans",
+          "conditionals",
+          "numbers"
+        ],
+        "difficulty": 7
+      },
+      {
+        "slug": "roman-numerals",
+        "name": "Roman Numerals",
+        "uuid": "2cc42bba-f2e5-47f8-a02f-762118343d02",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "strings"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "robot-simulator",
+        "name": "Robot Simulator",
+        "uuid": "e645a137-8235-47b1-87ee-e8e80d3ab251",
+        "practices": [
+          "conditionals"
+        ],
+        "prerequisites": [
+          "conditionals"
+        ],
+        "difficulty": 6
+      },
+      {
+        "slug": "scrabble-score",
+        "name": "Scrabble Score",
+        "uuid": "6f2ac06a-8ae2-4185-9205-96bc1427c2fb",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "strings"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "sieve",
+        "name": "Sieve",
+        "uuid": "6e25b082-0588-42ca-857c-7a9911088d0a",
+        "practices": [],
+        "prerequisites": [
+          "vectors",
+          "numbers"
+        ],
+        "difficulty": 5
+      },
+      {
+        "slug": "strain",
+        "name": "Strain",
+        "uuid": "8f511644-4aa1-4f9a-b5e5-5e07eaa7e9e3",
+        "practices": [],
+        "prerequisites": [
+          "conditionals",
+          "numbers"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "sublist",
+        "name": "Sublist",
+        "uuid": "70949f99-1e22-417f-94f2-c21c598105f3",
+        "practices": [
+          "lists"
+        ],
+        "prerequisites": [
+          "lists"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "sum-of-multiples",
+        "name": "Sum Of Multiples",
+        "uuid": "e81c1932-124f-4837-a74d-9b29ce076b83",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "conditionals"
+        ],
+        "difficulty": 2
       }
     ]
   },
