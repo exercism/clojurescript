@@ -316,6 +316,17 @@
         "topics": null
       },
       {
+        "slug": "sieve",
+        "name": "Sieve",
+        "uuid": "6e25b082-0588-42ca-857c-7a9911088d0a",
+        "practices": [],
+        "prerequisites": [
+          "vectors",
+          "numbers"
+        ],
+        "difficulty": 5
+      },
+      {
         "slug": "strain",
         "name": "Strain",
         "uuid": "8f511644-4aa1-4f9a-b5e5-5e07eaa7e9e3",
