@@ -326,6 +326,62 @@
           "conditionals"
         ],
         "difficulty": 6
+      },
+      {
+        "slug": "scrabble-score",
+        "name": "Scrabble Score",
+        "uuid": "6f2ac06a-8ae2-4185-9205-96bc1427c2fb",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "strings"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "sieve",
+        "name": "Sieve",
+        "uuid": "6e25b082-0588-42ca-857c-7a9911088d0a",
+        "practices": [],
+        "prerequisites": [
+          "vectors",
+          "numbers"
+        ],
+        "difficulty": 5
+      },
+      {
+        "slug": "strain",
+        "name": "Strain",
+        "uuid": "8f511644-4aa1-4f9a-b5e5-5e07eaa7e9e3",
+        "practices": [],
+        "prerequisites": [
+          "conditionals",
+          "numbers"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "sublist",
+        "name": "Sublist",
+        "uuid": "70949f99-1e22-417f-94f2-c21c598105f3",
+        "practices": [
+          "lists"
+        ],
+        "prerequisites": [
+          "lists"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "sum-of-multiples",
+        "name": "Sum Of Multiples",
+        "uuid": "e81c1932-124f-4837-a74d-9b29ce076b83",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "conditionals"
+        ],
+        "difficulty": 2
       }
     ]
   },
