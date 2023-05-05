@@ -325,6 +325,29 @@
           "numbers"
         ],
         "difficulty": 2
+      },
+      {
+        "slug": "sublist",
+        "name": "Sublist",
+        "uuid": "70949f99-1e22-417f-94f2-c21c598105f3",
+        "practices": [
+          "lists"
+        ],
+        "prerequisites": [
+          "lists"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "sum-of-multiples",
+        "name": "Sum Of Multiples",
+        "uuid": "e81c1932-124f-4837-a74d-9b29ce076b83",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "conditionals"
+        ],
+        "difficulty": 2
       }
     ]
   },
