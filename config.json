@@ -314,6 +314,17 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "scrabble-score",
+        "name": "Scrabble Score",
+        "uuid": "6f2ac06a-8ae2-4185-9205-96bc1427c2fb",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "strings"
+        ],
+        "difficulty": 2
       }
     ]
   },
