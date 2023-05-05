@@ -316,6 +316,16 @@
         "topics": null
       },
       {
+        "slug": "meetup",
+        "name": "Meetup",
+        "uuid": "ba096a09-dda5-45ae-bb90-51fe79b48c70",
+        "practices": [],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 4
+      },
+      {
         "slug": "kindergarten-garden",
         "name": "Kindergarten Garden",
         "uuid": "5ad3662f-1a44-48ac-bf9a-824ecc226e27",
