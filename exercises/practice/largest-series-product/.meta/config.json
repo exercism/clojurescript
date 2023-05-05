@@ -1,0 +1,21 @@
+{
+  "blurb": "Given a string of digits, calculate the largest product for a contiguous substring of digits of length n.",
+  "authors": [
+    "LeaveNhA"
+  ],
+  "contributors": [
+  ],
+  "files": {
+    "solution": [
+      "src/largest_series_product.cljs"
+    ],
+    "test": [
+      "test/largest_series_product_test.cljs"
+    ],
+    "example": [
+      ".meta/src/example.cljs"
+    ]
+  },
+  "source": "A variation on Problem 8 at Project Euler",
+  "source_url": "http://projecteuler.net/problem=8"
+}

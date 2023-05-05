@@ -279,6 +279,38 @@
         "topics": [
           "math"
         ]
+      },
+      {
+        "slug": "dominoes",
+        "name": "Dominoes",
+        "uuid": "1c44cacd-6a2d-4f9a-813c-2e1e59a7fe0d",
+        "practices": [],
+        "prerequisites": ["numbers", "booleans"],
+        "difficulty": 4,
+        "topics": [
+          "graph_theory",
+          "games"
+        ]
+      },
+      {
+        "slug": "largest-series-product",
+        "name": "Largest Series Product",
+        "uuid": "62f5e6c7-7c94-4fc8-9b56-b1723e09e9a0",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4,
+        "topics": [
+          "math"
+        ]
+      },
+      {
+        "slug": "luhn",
+        "name": "Luhn",
+        "uuid": "e934a981-f3ca-419c-94cd-7d0354e553e5",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5,
+        "topics": null
       }
     ]
   },
