@@ -8,7 +8,7 @@
       "test/binary_search_tree_test.cljs"
     ],
     "example": [
-      "src/example.cljs"
+      ".meta/src/example.cljs"
     ]
   },
   "blurb": "Insert and search for numbers in a binary tree.",

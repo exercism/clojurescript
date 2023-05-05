@@ -8,8 +8,7 @@
       "test/pascals_triangle_test.cljs"
     ],
     "example": [
-      "src/example-traditional.cljs",
-      "src/example-lazy.cljs"
+      ".meta/src/example.cljs"
     ]
   },
   "blurb": "Compute Pascal's triangle up to a given number of rows.",
