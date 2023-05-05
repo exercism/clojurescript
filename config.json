@@ -314,6 +314,17 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "pov",
+        "name": "Pov",
+        "uuid": "50b63a14-c022-4f1f-8cdc-6383eef657d3",
+        "practices": [],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 10
       }
     ]
   },
