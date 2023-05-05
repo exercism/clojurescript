@@ -356,9 +356,6 @@
           "strings"
         ],
         "prerequisites": [
-          "strings"
-        ],
-        "difficulty": 2
           "strings",
           "vectors"
         ],
