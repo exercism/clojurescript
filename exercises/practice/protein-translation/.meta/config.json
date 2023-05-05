@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "ErikSchierboom"
+  ],
+  "files": {
+    "solution": [
+      "src/protein_translation.cljs"
+    ],
+    "test": [
+      "test/protein_translation_test.cljs"
+    ],
+    "example": [
+      ".meta/src/example.cljs"
+    ]
+  },
+  "blurb": "Translate RNA sequences into proteins.",
+  "source": "Tyler Long"
+}
