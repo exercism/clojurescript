@@ -316,6 +316,17 @@
         "topics": null
       },
       {
+        "slug": "scrabble-score",
+        "name": "Scrabble Score",
+        "uuid": "6f2ac06a-8ae2-4185-9205-96bc1427c2fb",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "strings"
+        ],
+        "difficulty": 2
+      },
+      {
         "slug": "sieve",
         "name": "Sieve",
         "uuid": "6e25b082-0588-42ca-857c-7a9911088d0a",
