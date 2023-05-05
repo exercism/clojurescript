@@ -314,6 +314,17 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "poker",
+        "name": "Poker",
+        "uuid": "fcf475d8-6148-4cdc-817e-605edcf326b8",
+        "practices": [],
+        "prerequisites": [
+          "conditionals",
+          "strings"
+        ],
+        "difficulty": 7
       }
     ]
   },
