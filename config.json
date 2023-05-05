@@ -316,6 +316,18 @@
         "topics": null
       },
       {
+        "slug": "queen-attack",
+        "name": "Queen Attack",
+        "uuid": "f3d3d890-d770-452c-b084-1fba0ce9eb52",
+        "practices": [],
+        "prerequisites": [
+          "booleans",
+          "conditionals",
+          "numbers"
+        ],
+        "difficulty": 7
+      },
+      {
         "slug": "roman-numerals",
         "name": "Roman Numerals",
         "uuid": "2cc42bba-f2e5-47f8-a02f-762118343d02",
