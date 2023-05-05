@@ -27,7 +27,7 @@
       "test/%{snake_slug}_test.cljs"
     ],
     "example": [
-      "src/example.cljs"
+      ".meta/src/example.cljs"
     ],
     "exemplar": [
       ".meta/src/exemplar.cljs"

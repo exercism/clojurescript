@@ -8,7 +8,7 @@
       "test/matching_brackets_test.cljs"
     ],
     "example": [
-      "src/example.cljs"
+      ".meta/src/example.cljs"
     ]
   },
   "blurb": "Make sure the brackets and braces all match.",

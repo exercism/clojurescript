@@ -8,7 +8,7 @@
       "test/binary_search_test.cljs"
     ],
     "example": [
-      "src/example.cljs"
+      ".meta/src/example.cljs"
     ]
   },
   "blurb": "Implement a binary search algorithm.",
