@@ -314,6 +314,17 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "trinary",
+        "name": "Trinary",
+        "uuid": "a7fd3899-40fe-4900-a31a-15fd540013cf",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "strings"
+        ],
+        "difficulty": 3
       }
     ]
   },
