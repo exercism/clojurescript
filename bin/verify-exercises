@@ -1,0 +1,71 @@
+#!/bin/bash
+
+# Usage:
+#   bin/verify-one-exercise "$exercise_slug" [...]
+
+# During CI, this scripts runs with MacOS bash, version 3.2.
+
+shopt -s nullglob
+unset CDPATH
+
+die() {
+    echo "$*" >&2
+    exit 1
+}
+
+test_exercise() {
+    local dir=${1%/}
+    local exercise=./${dir##*/}
+    local name=${dir//-/_}
+
+    [[ -d $exercise ]] || die "not an exercise: $dir"
+
+    mkdir -p "$tempDir"
+    mkdir -p "$tempDir/test"
+    mkdir -p "$tempDir/src"
+
+    echo "================================"
+    echo "Executing : ${exercise#./}"
+
+    cp $exercise/deps.edn "$tempDir"
+    cp $exercise/test/${name}_test.cljs "$tempDir/test/${name}_test.cljs"
+    cp $exercise/.meta/src/example.cljs "$tempDir/src/$name.cljs"
+    # this pattern with cd and tar preserves directory structures.
+    (cd "$exercise" && tar cf - ./test) | (cd "$tempDir" && tar xf -)
+
+    cd "$tempDir"
+    clojure -M:test || ((++exit_status))
+
+    cd -  >/dev/null
+    rm -r "$tempDir"
+    echo "================================"
+}
+
+main() {
+    cd ./exercises/practice || die "cannot cd to ./exercises/practice"
+
+    tempDir=$(mktemp -d)
+    trap 'rm -rf "$tempDir"' EXIT
+
+    # if no arguments, look in config.json for the exercises to test
+    if (($# == 0)); then
+        # this is unclean, but we're running in old bash
+        set -- $(
+            jq -r '
+                .exercises.practice[]
+                | select( (has("status") and (.status | IN("wip","deprecated"))) | not)
+                | .slug
+            ' ../../config.json
+        )
+    fi
+
+    echo "Testing: $*"
+
+    exit_status=0
+    for slug in "$@"; do
+        test_exercise "$slug"
+    done
+    return $exit_status
+}
+
+main "$@"
