@@ -341,7 +341,7 @@
         "uuid": "c895c0f5-0fe5-4ce1-a3a9-b6cd911d9275",
         "practices": [],
         "prerequisites": [
-          "lists",          
+          "lists",
           "numbers",
           "strings"
         ],
@@ -394,7 +394,7 @@
         ],
         "difficulty": 2
       },
-      { 
+      {
         "slug": "acronym",
         "name": "Acronym",
         "uuid": "e6147a0d-3000-4b3c-9a60-3f8800730691",
@@ -582,6 +582,17 @@
         "prerequisites": [
           "numbers",
           "conditionals"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "robot-name",
+        "name": "Robot Name",
+        "uuid": "33c4d67c-8365-41d2-9a3e-c41bbf0dd131",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "strings"
         ],
         "difficulty": 2
       }
