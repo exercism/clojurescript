@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "ErikSchierboom"
+  ],
+  "files": {
+    "solution": [
+      "src/bank_account.cljs"
+    ],
+    "test": [
+      "test/bank_account_test.cljs"
+    ],
+    "example": [
+      ".meta/src/example.cljs"
+    ]
+  },
+  "blurb": "Simulate a bank account supporting opening/closing, withdraws, and deposits of money. Watch out for concurrent transactions!"
+}
