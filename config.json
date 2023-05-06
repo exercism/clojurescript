@@ -316,6 +316,16 @@
         "topics": null
       },
       {
+        "slug": "flatten-array",
+        "name": "Flatten Array",
+        "uuid": "05847b82-2bcb-4a14-b189-db2876c511ba",
+        "practices": [],
+        "prerequisites": [
+          "vectors"
+        ],
+        "difficulty": 3
+      },
+      {
         "slug": "etl",
         "name": "Etl",
         "uuid": "c895c0f5-0fe5-4ce1-a3a9-b6cd911d9275",
