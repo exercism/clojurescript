@@ -341,7 +341,7 @@
         "uuid": "c895c0f5-0fe5-4ce1-a3a9-b6cd911d9275",
         "practices": [],
         "prerequisites": [
-          "lists",          
+          "lists",
           "numbers",
           "strings"
         ],
@@ -394,7 +394,7 @@
         ],
         "difficulty": 2
       },
-      { 
+      {
         "slug": "acronym",
         "name": "Acronym",
         "uuid": "e6147a0d-3000-4b3c-9a60-3f8800730691",
@@ -582,6 +582,18 @@
         "prerequisites": [
           "numbers",
           "conditionals"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "nth-prime",
+        "name": "Nth Prime",
+        "uuid": "c5121449-5340-403f-8eff-f8c46db467ff",
+        "practices": [
+          "numbers"
+        ],
+        "prerequisites": [
+          "numbers"
         ],
         "difficulty": 2
       }
