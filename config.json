@@ -316,6 +316,19 @@
         "topics": null
       },
       {
+        "slug": "acronym",
+        "name": "Acronym",
+        "uuid": "e6147a0d-3000-4b3c-9a60-3f8800730691",
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [
+          "strings",
+          "booleans"
+        ],
+        "difficulty": 2
+      },
+      {
         "slug": "accumulate",
         "name": "Accumulate",
         "uuid": "204845d0-73b3-4f68-b8d7-05af5bbff118",
