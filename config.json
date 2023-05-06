@@ -316,6 +316,16 @@
         "topics": null
       },
       {
+        "slug": "gigasecond",
+        "name": "Gigasecond",
+        "uuid": "3e8e9e3d-0999-4406-a46d-2a8e2cdfed45",
+        "practices": [],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 3
+      },
+      {
         "slug": "flatten-array",
         "name": "Flatten Array",
         "uuid": "05847b82-2bcb-4a14-b189-db2876c511ba",
