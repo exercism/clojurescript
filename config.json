@@ -595,6 +595,17 @@
           "vectors"
         ],
         "difficulty": 5
+      },
+      {
+        "slug": "change",
+        "name": "Change",
+        "uuid": "e1e76dc4-543f-4d1e-8727-a726ee5291ec",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "vectors"
+        ],
+        "difficulty": 3
       }
     ]
   },
