@@ -341,7 +341,7 @@
         "uuid": "c895c0f5-0fe5-4ce1-a3a9-b6cd911d9275",
         "practices": [],
         "prerequisites": [
-          "lists",          
+          "lists",
           "numbers",
           "strings"
         ],
@@ -394,7 +394,7 @@
         ],
         "difficulty": 2
       },
-      { 
+      {
         "slug": "acronym",
         "name": "Acronym",
         "uuid": "e6147a0d-3000-4b3c-9a60-3f8800730691",
@@ -579,6 +579,19 @@
         "name": "Sum Of Multiples",
         "uuid": "e81c1932-124f-4837-a74d-9b29ce076b83",
         "practices": [],
+        "prerequisites": [
+          "numbers",
+          "conditionals"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "collatz-conjecture",
+        "name": "Collatz Conjecture",
+        "uuid": "99c2ede9-23a8-40a1-a54e-f33fddb7d881",
+        "practices": [
+          "numbers"
+        ],
         "prerequisites": [
           "numbers",
           "conditionals"
