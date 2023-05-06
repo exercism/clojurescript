@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "ErikSchierboom"
+  ],
+  "files": {
+    "solution": [
+      "src/complex_numbers.cljs"
+    ],
+    "test": [
+      "test/complex_numbers_test.cljs"
+    ],
+    "example": [
+      ".meta/src/example.cljs"
+    ]
+  },
+  "blurb": "Implement complex numbers.",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Complex_number"
+}
