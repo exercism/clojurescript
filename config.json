@@ -316,6 +316,18 @@
         "topics": null
       },
       {
+        "slug": "etl",
+        "name": "Etl",
+        "uuid": "c895c0f5-0fe5-4ce1-a3a9-b6cd911d9275",
+        "practices": [],
+        "prerequisites": [
+          "lists",          
+          "numbers",
+          "strings"
+        ],
+        "difficulty": 2
+      },
+      {
         "slug": "difference-of-squares",
         "name": "Difference Of Squares",
         "uuid": "0a83a4b3-446b-424e-bd56-2b53c26a956d",
