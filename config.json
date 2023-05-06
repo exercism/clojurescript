@@ -341,7 +341,7 @@
         "uuid": "c895c0f5-0fe5-4ce1-a3a9-b6cd911d9275",
         "practices": [],
         "prerequisites": [
-          "lists",          
+          "lists",
           "numbers",
           "strings"
         ],
@@ -394,7 +394,7 @@
         ],
         "difficulty": 2
       },
-      { 
+      {
         "slug": "acronym",
         "name": "Acronym",
         "uuid": "e6147a0d-3000-4b3c-9a60-3f8800730691",
@@ -584,6 +584,17 @@
           "conditionals"
         ],
         "difficulty": 2
+      },
+      {
+        "slug": "yacht",
+        "name": "Yacht",
+        "uuid": "24666e92-89fe-4955-8420-b63458f66b4c",
+        "practices": [],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 5
       }
     ]
   },
