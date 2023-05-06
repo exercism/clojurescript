@@ -328,6 +328,130 @@
         "difficulty": 2
       },
       {
+        "slug": "difference-of-squares",
+        "name": "Difference Of Squares",
+        "uuid": "0a83a4b3-446b-424e-bd56-2b53c26a956d",
+        "practices": [
+          "numbers"
+        ],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "crypto-square",
+        "name": "Crypto Square",
+        "uuid": "6206d9b0-454e-4cf5-9c8e-dade7485e909",
+        "practices": [],
+        "prerequisites": [
+          "strings"
+        ],
+        "difficulty": 4
+      },
+      {
+        "slug": "complex-numbers",
+        "name": "Complex Numbers",
+        "uuid": "3e3ac35a-6d33-4848-9296-ff3eb0b73f6e",
+        "practices": [
+          "numbers"
+        ],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "all-your-base",
+        "name": "All Your Base",
+        "uuid": "5f736494-1f66-4711-aa22-6d2133bc641d",
+        "practices": [
+          "numbers"
+        ],
+        "prerequisites": [
+          "numbers",
+          "vectors"
+        ],
+        "difficulty": 2
+      },
+      { 
+        "slug": "acronym",
+        "name": "Acronym",
+        "uuid": "e6147a0d-3000-4b3c-9a60-3f8800730691",
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [
+          "strings",
+          "booleans"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "accumulate",
+        "name": "Accumulate",
+        "uuid": "204845d0-73b3-4f68-b8d7-05af5bbff118",
+        "practices": [],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "pov",
+        "name": "Pov",
+        "uuid": "50b63a14-c022-4f1f-8cdc-6383eef657d3",
+        "practices": [],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 10
+      },
+      {
+        "slug": "meetup",
+        "name": "Meetup",
+        "uuid": "ba096a09-dda5-45ae-bb90-51fe79b48c70",
+        "practices": [],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 4
+      },
+      {
+        "slug": "kindergarten-garden",
+        "name": "Kindergarten Garden",
+        "uuid": "5ad3662f-1a44-48ac-bf9a-824ecc226e27",
+        "practices": [],
+        "prerequisites": [
+          "strings"
+        ],
+        "difficulty": 3
+      },
+      {
+        "slug": "pig-latin",
+        "name": "Pig Latin",
+        "uuid": "e6fec95d-cd13-4cf9-9ddb-8111e1c229b7",
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [
+          "strings"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "poker",
+        "name": "Poker",
+        "uuid": "fcf475d8-6148-4cdc-817e-605edcf326b8",
+        "practices": [],
+        "prerequisites": [
+          "conditionals",
+          "strings"
+        ],
+        "difficulty": 7
+      },
+      {
         "slug": "prime-factors",
         "name": "Prime Factors",
         "uuid": "5225e405-8095-45ec-ab11-f4686e9003cf",
