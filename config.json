@@ -316,6 +316,16 @@
         "topics": null
       },
       {
+        "slug": "crypto-square",
+        "name": "Crypto Square",
+        "uuid": "6206d9b0-454e-4cf5-9c8e-dade7485e909",
+        "practices": [],
+        "prerequisites": [
+          "strings"
+        ],
+        "difficulty": 4
+      },
+      {
         "slug": "complex-numbers",
         "name": "Complex Numbers",
         "uuid": "3e3ac35a-6d33-4848-9296-ff3eb0b73f6e",
