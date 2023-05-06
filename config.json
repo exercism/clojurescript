@@ -586,6 +586,17 @@
         "difficulty": 2
       },
       {
+        "slug": "zipper",
+        "name": "Zipper",
+        "uuid": "26c4c4c6-154f-42fd-b624-158132c028c3",
+        "practices": [],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 9
+      },
+      {
         "slug": "yacht",
         "name": "Yacht",
         "uuid": "24666e92-89fe-4955-8420-b63458f66b4c",
