@@ -316,6 +316,19 @@
         "topics": null
       },
       {
+        "slug": "all-your-base",
+        "name": "All Your Base",
+        "uuid": "5f736494-1f66-4711-aa22-6d2133bc641d",
+        "practices": [
+          "numbers"
+        ],
+        "prerequisites": [
+          "numbers",
+          "vectors"
+        ],
+        "difficulty": 2
+      },
+      { 
         "slug": "acronym",
         "name": "Acronym",
         "uuid": "e6147a0d-3000-4b3c-9a60-3f8800730691",
