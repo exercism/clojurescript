@@ -341,7 +341,7 @@
         "uuid": "c895c0f5-0fe5-4ce1-a3a9-b6cd911d9275",
         "practices": [],
         "prerequisites": [
-          "lists",          
+          "lists",
           "numbers",
           "strings"
         ],
@@ -394,7 +394,7 @@
         ],
         "difficulty": 2
       },
-      { 
+      {
         "slug": "acronym",
         "name": "Acronym",
         "uuid": "e6147a0d-3000-4b3c-9a60-3f8800730691",
@@ -584,6 +584,16 @@
           "conditionals"
         ],
         "difficulty": 2
+      },
+      {
+        "slug": "diamond",
+        "name": "Diamond",
+        "uuid": "1c0d90ee-6b9e-425e-bd26-7f28026e601e",
+        "practices": [],
+        "prerequisites": [
+          "strings"
+        ],
+        "difficulty": 5
       }
     ]
   },
