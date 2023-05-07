@@ -594,6 +594,50 @@
           "numbers"
         ],
         "difficulty": 3
+      },
+      {
+        "slug": "proverb",
+        "name": "Proverb",
+        "uuid": "fa8ffb0a-4936-4aad-8b8e-e77116aca614",
+        "practices": [],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 3
+      },
+      {
+        "slug": "zipper",
+        "name": "Zipper",
+        "uuid": "26c4c4c6-154f-42fd-b624-158132c028c3",
+        "practices": [],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 9
+      },
+      {
+        "slug": "yacht",
+        "name": "Yacht",
+        "uuid": "24666e92-89fe-4955-8420-b63458f66b4c",
+        "practices": [],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 5
+      },
+      {
+        "slug": "change",
+        "name": "Change",
+        "uuid": "e1e76dc4-543f-4d1e-8727-a726ee5291ec",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "vectors"
+        ],
+        "difficulty": 3
       }
     ]
   },
