@@ -586,6 +586,17 @@
         "difficulty": 2
       },
       {
+        "slug": "proverb",
+        "name": "Proverb",
+        "uuid": "fa8ffb0a-4936-4aad-8b8e-e77116aca614",
+        "practices": [],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 3
+      },
+      {
         "slug": "zipper",
         "name": "Zipper",
         "uuid": "26c4c4c6-154f-42fd-b624-158132c028c3",
