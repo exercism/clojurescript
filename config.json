@@ -586,6 +586,19 @@
         "difficulty": 2
       },
       {
+        "slug": "collatz-conjecture",
+        "name": "Collatz Conjecture",
+        "uuid": "99c2ede9-23a8-40a1-a54e-f33fddb7d881",
+        "practices": [
+          "numbers"
+        ],
+        "prerequisites": [
+          "numbers",
+          "conditionals"
+        ],
+        "difficulty": 2
+      },
+      {
         "slug": "grade-school",
         "name": "Grade School",
         "uuid": "f9b0bc81-ea0b-4007-8228-6bb520333289",
