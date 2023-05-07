@@ -586,6 +586,16 @@
         "difficulty": 2
       },
       {
+        "slug": "perfect-numbers",
+        "name": "Perfect Numbers",
+        "uuid": "e523fad6-9078-46d0-a540-e6af83dc0e59",
+        "practices": [],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 3
+      },
+      {
         "slug": "pangram",
         "name": "Pangram",
         "uuid": "a646eaf6-3642-4d05-9083-b520699145b3",
