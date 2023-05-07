@@ -586,6 +586,22 @@
         "difficulty": 2
       },
       {
+        "slug": "wordy",
+        "name": "Wordy",
+        "uuid": "fae36fc2-9c03-42a0-b1a1-3d1dd61783ba",
+        "practices": [
+          "numbers",
+          "strings",
+          "conditionals"
+        ],
+        "prerequisites": [
+          "numbers",
+          "strings",
+          "conditionals"
+        ],
+        "difficulty": 6
+      },
+      {
         "slug": "perfect-numbers",
         "name": "Perfect Numbers",
         "uuid": "e523fad6-9078-46d0-a540-e6af83dc0e59",
