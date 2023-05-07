@@ -586,6 +586,19 @@
         "difficulty": 2
       },
       {
+        "slug": "space-age",
+        "name": "Space Age",
+        "uuid": "f43676b5-ab9c-4cc8-9159-a30401deaa29",
+        "practices": [
+          "floating-point-numbers"
+        ],
+        "prerequisites": [
+          "numbers",
+          "floating-point-numbers"
+        ],
+        "difficulty": 2
+      },
+      {
         "slug": "collatz-conjecture",
         "name": "Collatz Conjecture",
         "uuid": "99c2ede9-23a8-40a1-a54e-f33fddb7d881",
