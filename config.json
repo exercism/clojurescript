@@ -586,6 +586,18 @@
         "difficulty": 2
       },
       {
+        "slug": "minesweeper",
+        "name": "Minesweeper",
+        "uuid": "1d8dc367-3f00-4b99-a6bd-e5895a0bdb4c",
+        "practices": [],
+        "prerequisites": [
+          "vectors",
+          "conditionals",
+          "strings"
+        ],
+        "difficulty": 7
+      },
+      {
         "slug": "wordy",
         "name": "Wordy",
         "uuid": "fae36fc2-9c03-42a0-b1a1-3d1dd61783ba",
