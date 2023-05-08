@@ -586,6 +586,18 @@
         "difficulty": 2
       },
       {
+        "slug": "bank-account",
+        "name": "Bank Account",
+        "uuid": "a3964ef3-f2d8-4982-9240-d253345b0988",
+        "practices": [
+          "floating-point-numbers"
+        ],
+        "prerequisites": [
+          "floating-point-numbers"
+        ],
+        "difficulty": 4
+      },
+      {
         "slug": "go-counting",
         "name": "Go Counting",
         "uuid": "f3fac096-43b6-4106-a111-780991d64c4f",
