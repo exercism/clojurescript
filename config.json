@@ -586,6 +586,16 @@
         "difficulty": 2
       },
       {
+        "slug": "diamond",
+        "name": "Diamond",
+        "uuid": "1c0d90ee-6b9e-425e-bd26-7f28026e601e",
+        "practices": [],
+        "prerequisites": [
+          "strings"
+        ],
+        "difficulty": 5
+      },
+      {
         "slug": "bank-account",
         "name": "Bank Account",
         "uuid": "a3964ef3-f2d8-4982-9240-d253345b0988",
