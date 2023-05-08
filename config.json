@@ -586,6 +586,17 @@
         "difficulty": 2
       },
       {
+        "slug": "robot-name",
+        "name": "Robot Name",
+        "uuid": "33c4d67c-8365-41d2-9a3e-c41bbf0dd131",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "strings"
+        ],
+        "difficulty": 2
+      },
+      {
         "slug": "say",
         "name": "Say",
         "uuid": "f8a4f68b-df8d-469f-9969-8b4f53c1b41b",
