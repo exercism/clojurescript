@@ -586,6 +586,18 @@
         "difficulty": 2
       },
       {
+        "slug": "secret-handshake",
+        "name": "Secret Handshake",
+        "uuid": "e367eaee-7ad3-46bf-86cb-922b797f8829",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "vectors",
+          "strings"
+        ],
+        "difficulty": 2
+      },
+      {
         "slug": "rotational-cipher",
         "name": "Rotational Cipher",
         "uuid": "af9aa984-1a9a-479b-94dc-8e7290ffa80e",
