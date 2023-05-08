@@ -595,7 +595,233 @@
         "prerequisites": [
           "floating-point-numbers"
         ],
+        "difficulty": 4
+      },
+      {
+        "slug": "go-counting",
+        "name": "Go Counting",
+        "uuid": "f3fac096-43b6-4106-a111-780991d64c4f",
+        "practices": [],
+        "prerequisites": [
+          "strings"
+        ],
+        "difficulty": 9
+      },
+      {
+        "slug": "nth-prime",
+        "name": "Nth Prime",
+        "uuid": "c5121449-5340-403f-8eff-f8c46db467ff",
+        "practices": [
+          "numbers"
+        ],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "robot-name",
+        "name": "Robot Name",
+        "uuid": "33c4d67c-8365-41d2-9a3e-c41bbf0dd131",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "strings"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "say",
+        "name": "Say",
+        "uuid": "f8a4f68b-df8d-469f-9969-8b4f53c1b41b",
+        "practices": [
+          "numbers",
+          "strings",
+          "conditionals"
+        ],
+        "prerequisites": [
+          "numbers",
+          "strings",
+          "conditionals"
+        ],
+        "difficulty": 3
+      },
+      {
+        "slug": "secret-handshake",
+        "name": "Secret Handshake",
+        "uuid": "e367eaee-7ad3-46bf-86cb-922b797f8829",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "vectors",
+          "strings"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "rotational-cipher",
+        "name": "Rotational Cipher",
+        "uuid": "af9aa984-1a9a-479b-94dc-8e7290ffa80e",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "strings"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "atbash-cipher",
+        "name": "Atbash Cipher",
+        "uuid": "afb8e97c-6600-419c-a121-7cd3bcf870ee",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "conditionals",
+          "strings"
+        ],
+        "difficulty": 3
+      },
+      {
+        "slug": "minesweeper",
+        "name": "Minesweeper",
+        "uuid": "1d8dc367-3f00-4b99-a6bd-e5895a0bdb4c",
+        "practices": [],
+        "prerequisites": [
+          "vectors",
+          "conditionals",
+          "strings"
+        ],
         "difficulty": 7
+      },
+      {
+        "slug": "wordy",
+        "name": "Wordy",
+        "uuid": "fae36fc2-9c03-42a0-b1a1-3d1dd61783ba",
+        "practices": [
+          "numbers",
+          "strings",
+          "conditionals"
+        ],
+        "prerequisites": [
+          "numbers",
+          "strings",
+          "conditionals"
+        ],
+        "difficulty": 6
+      },
+      {
+        "slug": "perfect-numbers",
+        "name": "Perfect Numbers",
+        "uuid": "e523fad6-9078-46d0-a540-e6af83dc0e59",
+        "practices": [],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 3
+      },
+      {
+        "slug": "pangram",
+        "name": "Pangram",
+        "uuid": "a646eaf6-3642-4d05-9083-b520699145b3",
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [
+          "strings",
+          "booleans"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "space-age",
+        "name": "Space Age",
+        "uuid": "f43676b5-ab9c-4cc8-9159-a30401deaa29",
+        "practices": [
+          "floating-point-numbers"
+        ],
+        "prerequisites": [
+          "numbers",
+          "floating-point-numbers"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "collatz-conjecture",
+        "name": "Collatz Conjecture",
+        "uuid": "99c2ede9-23a8-40a1-a54e-f33fddb7d881",
+        "practices": [
+          "numbers"
+        ],
+        "prerequisites": [
+          "numbers",
+          "conditionals"
+        ],
+        "difficulty": 2
+      },
+      {
+        "slug": "grade-school",
+        "name": "Grade School",
+        "uuid": "f9b0bc81-ea0b-4007-8228-6bb520333289",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "strings"
+        ],
+        "difficulty": 3
+      },
+      {
+        "slug": "grains",
+        "name": "Grains",
+        "uuid": "3a96556b-4ec8-431d-a5ee-99355065baec",
+        "practices": [],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 3
+      },
+      {
+        "slug": "proverb",
+        "name": "Proverb",
+        "uuid": "fa8ffb0a-4936-4aad-8b8e-e77116aca614",
+        "practices": [],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 3
+      },
+      {
+        "slug": "zipper",
+        "name": "Zipper",
+        "uuid": "26c4c4c6-154f-42fd-b624-158132c028c3",
+        "practices": [],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 9
+      },
+      {
+        "slug": "yacht",
+        "name": "Yacht",
+        "uuid": "24666e92-89fe-4955-8420-b63458f66b4c",
+        "practices": [],
+        "prerequisites": [
+          "strings",
+          "vectors"
+        ],
+        "difficulty": 5
+      },
+      {
+        "slug": "change",
+        "name": "Change",
+        "uuid": "e1e76dc4-543f-4d1e-8727-a726ee5291ec",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "vectors"
+        ],
+        "difficulty": 3
       }
     ]
   },
