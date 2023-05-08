@@ -586,6 +586,22 @@
         "difficulty": 2
       },
       {
+        "slug": "say",
+        "name": "Say",
+        "uuid": "f8a4f68b-df8d-469f-9969-8b4f53c1b41b",
+        "practices": [
+          "numbers",
+          "strings",
+          "conditionals"
+        ],
+        "prerequisites": [
+          "numbers",
+          "strings",
+          "conditionals"
+        ],
+        "difficulty": 3
+      },
+      {
         "slug": "secret-handshake",
         "name": "Secret Handshake",
         "uuid": "e367eaee-7ad3-46bf-86cb-922b797f8829",
