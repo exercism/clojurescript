@@ -586,6 +586,17 @@
         "difficulty": 2
       },
       {
+        "slug": "rotational-cipher",
+        "name": "Rotational Cipher",
+        "uuid": "af9aa984-1a9a-479b-94dc-8e7290ffa80e",
+        "practices": [],
+        "prerequisites": [
+          "numbers",
+          "strings"
+        ],
+        "difficulty": 2
+      },
+      {
         "slug": "atbash-cipher",
         "name": "Atbash Cipher",
         "uuid": "afb8e97c-6600-419c-a121-7cd3bcf870ee",
