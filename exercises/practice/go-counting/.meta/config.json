@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "ErikSchierboom"
+  ],
+  "files": {
+    "solution": [
+      "src/go_counting.cljs"
+    ],
+    "test": [
+      "test/go_counting_test.cljs"
+    ],
+    "example": [
+      ".meta/src/example.cljs"
+    ]
+  },
+  "blurb": "Count the scored points on a Go board."
+}

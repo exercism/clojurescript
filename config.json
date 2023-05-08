@@ -586,6 +586,16 @@
         "difficulty": 2
       },
       {
+        "slug": "go-counting",
+        "name": "Go Counting",
+        "uuid": "f3fac096-43b6-4106-a111-780991d64c4f",
+        "practices": [],
+        "prerequisites": [
+          "strings"
+        ],
+        "difficulty": 9
+      },
+      {
         "slug": "nth-prime",
         "name": "Nth Prime",
         "uuid": "c5121449-5340-403f-8eff-f8c46db467ff",
