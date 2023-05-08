@@ -586,6 +586,18 @@
         "difficulty": 2
       },
       {
+        "slug": "nth-prime",
+        "name": "Nth Prime",
+        "uuid": "c5121449-5340-403f-8eff-f8c46db467ff",
+        "practices": [
+          "numbers"
+        ],
+        "prerequisites": [
+          "numbers"
+        ],
+        "difficulty": 2
+      },
+      {
         "slug": "robot-name",
         "name": "Robot Name",
         "uuid": "33c4d67c-8365-41d2-9a3e-c41bbf0dd131",
