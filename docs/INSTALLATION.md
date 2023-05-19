@@ -31,6 +31,6 @@ To test the correct installation, run `clojure --help` and it shows you the vers
 
 ```bash
 $ clojure --help
-Version: 1.10.1.547
+Version: 1.11.1.1273
 ...
 ```
