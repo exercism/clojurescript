@@ -1,5 +1,5 @@
 (ns secret-handshake-test
-  (:require [clojure.test :refer [deftest testing is]]
+  (:require [cljs.test :refer [deftest is testing] :as t :include-macros true]
             secret-handshake))
 
 (deftest wink

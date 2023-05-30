@@ -1,5 +1,5 @@
 (ns diamond-test
-  (:require [clojure.test :refer [deftest is are]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             [diamond :refer [diamond]]))
 
 (deftest single-a-row

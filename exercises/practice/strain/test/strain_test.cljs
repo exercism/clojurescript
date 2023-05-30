@@ -1,5 +1,5 @@
 (ns strain-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             [strain :refer [retain discard]]))
 
 (defn- fn-throw-exception [msg] (fn [& _] (throw (Exception. msg))))

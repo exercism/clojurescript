@@ -1,5 +1,5 @@
 (ns meetup-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             meetup))
 
 (deftest monteenth-of-may-2013

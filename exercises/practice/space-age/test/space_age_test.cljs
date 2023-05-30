@@ -1,5 +1,5 @@
 (ns space-age-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             space-age))
 
 (defn- rounds-to

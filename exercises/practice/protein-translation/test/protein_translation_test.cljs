@@ -1,5 +1,5 @@
 (ns protein-translation-test
-  (:require [clojure.test :refer [deftest is are]]
+  (:require [cljs.test :refer [deftest is are] :as t :include-macros true]
             protein-translation))
 
 (deftest AUG-translates-to-Methionine

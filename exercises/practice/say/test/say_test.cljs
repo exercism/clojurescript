@@ -1,5 +1,5 @@
 (ns say-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             say))
 
 (deftest zero-test

@@ -1,6 +1,6 @@
 (ns zipper-test
-  (:require [clojure.test :refer [deftest testing is run-tests]]
-             zipper))
+  (:require [cljs.test :refer [deftest is testing] :as t :include-macros true]
+            zipper))
 
 (def t1 {:value 1, :left {:value 2, :left nil, :right {:value 3, :left nil, :right nil}}, :right {:value 4, :left nil, :right nil}})
 
@@ -21,13 +21,12 @@
                    zipper/from-tree
                    zipper/left
                    zipper/right
-                   zipper/value
-                   ))))
+                   zipper/value))))
     (testing "dead end"
       (is (nil? (-> tree
-                     zipper/from-tree
-                     zipper/left
-                     zipper/left))))
+                    zipper/from-tree
+                    zipper/left
+                    zipper/left))))
     (testing "tree from deep focus"
       (is (= tree (-> tree
                       zipper/from-tree
@@ -35,12 +34,12 @@
                       zipper/right
                       zipper/to-tree))))
     (testing "traversing up from top"
-      (is (= nil 
+      (is (= nil
              (-> tree
                  zipper/from-tree
                  zipper/up))))
     (testing "left, right, and up"
-      (is (= 3 
+      (is (= 3
              (-> tree
                  zipper/from-tree
                  zipper/left
@@ -51,7 +50,7 @@
                  zipper/right
                  zipper/value))))
     (testing "test ability to descend multiple levels and return"
-      (is (= 1 
+      (is (= 1
              (-> tree
                  zipper/from-tree
                  zipper/left
@@ -68,7 +67,7 @@
                               :right nil}}
               :right {:value 4
                       :left  nil
-                      :right nil}} 
+                      :right nil}}
              (-> tree
                  zipper/from-tree
                  zipper/left
@@ -83,7 +82,7 @@
                               :right nil}}
               :right {:value 4
                       :left  nil
-                      :right nil}} 
+                      :right nil}}
              (-> tree
                  zipper/from-tree
                  zipper/left
@@ -102,7 +101,7 @@
                               :right nil}}
               :right {:value 4
                       :left  nil
-                      :right nil}} 
+                      :right nil}}
              (-> tree
                  zipper/from-tree
                  zipper/left
@@ -117,7 +116,7 @@
                       :right nil}
               :right {:value 4
                       :left  nil
-                      :right nil}} 
+                      :right nil}}
              (-> tree
                  zipper/from-tree
                  zipper/left
@@ -136,7 +135,7 @@
                               :right nil}
                       :right {:value 8
                               :left  nil
-                              :right nil}}} 
+                              :right nil}}}
              (-> tree
                  zipper/from-tree
                  (zipper/set-right {:value 6
@@ -156,7 +155,7 @@
                               :right nil}}
               :right {:value 4
                       :left  nil
-                      :right nil}} 
+                      :right nil}}
              (-> tree
                  zipper/from-tree
                  zipper/left
@@ -166,27 +165,27 @@
 
 (deftest sameResultFromOperations-test
   (testing "different paths to same zipper"
-     (is (= (-> {:value 1
-                 :left  {:value 2
-                         :left  nil
-                         :right {:value 3
-                                 :left  nil
-                                 :right nil}}
-                 :right {:value 4
-                         :left  nil
-                         :right nil}}
-                zipper/from-tree
-                zipper/right)
-         (-> {:value 1
-              :left  {:value 2
-                      :left  nil
-                      :right {:value 3
-                              :left  nil
-                              :right nil}}
-              :right {:value 4
-                      :left  nil
-                      :right nil}}
-             zipper/from-tree
-             zipper/left
-             zipper/up
-             zipper/right)))))
+    (is (= (-> {:value 1
+                :left  {:value 2
+                        :left  nil
+                        :right {:value 3
+                                :left  nil
+                                :right nil}}
+                :right {:value 4
+                        :left  nil
+                        :right nil}}
+               zipper/from-tree
+               zipper/right)
+           (-> {:value 1
+                :left  {:value 2
+                        :left  nil
+                        :right {:value 3
+                                :left  nil
+                                :right nil}}
+                :right {:value 4
+                        :left  nil
+                        :right nil}}
+               zipper/from-tree
+               zipper/left
+               zipper/up
+               zipper/right)))))

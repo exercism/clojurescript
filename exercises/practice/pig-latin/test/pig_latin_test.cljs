@@ -1,5 +1,5 @@
 (ns pig-latin-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             pig-latin))
 
 ;; ay is added to words that start with vowels

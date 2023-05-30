@@ -1,5 +1,5 @@
 (ns sieve-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             [sieve :refer [sieve]]))
 
 (deftest a-few-primes

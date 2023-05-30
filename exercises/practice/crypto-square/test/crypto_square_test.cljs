@@ -1,5 +1,5 @@
 (ns crypto-square-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             crypto-square))
 
 (deftest normalize-splunk

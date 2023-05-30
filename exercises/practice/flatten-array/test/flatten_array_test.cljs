@@ -1,5 +1,5 @@
 (ns flatten-array-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [cljs.test :refer [deftest is testing] :as t :include-macros true]
             [flatten-array]))
 
 (deftest flattens-array-of-ints

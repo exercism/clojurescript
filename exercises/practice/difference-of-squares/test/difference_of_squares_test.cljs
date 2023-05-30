@@ -1,5 +1,5 @@
 (ns difference-of-squares-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             [difference-of-squares :as dos]))
 
 (deftest square-of-sum-to-5

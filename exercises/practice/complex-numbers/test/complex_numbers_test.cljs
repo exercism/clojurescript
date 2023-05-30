@@ -1,5 +1,5 @@
 (ns complex-numbers-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [cljs.test :refer [deftest is testing] :as t :include-macros true]
             [complex-numbers :as c]))
 
 ;; Tests for Real Part

@@ -1,5 +1,5 @@
 (ns wordy-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             wordy))
 
 (deftest addition
@@ -53,4 +53,3 @@
   (is (thrown?
        js/Error
        (wordy/evaluate "Who is the President of the United States?"))))
-

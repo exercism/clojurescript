@@ -1,5 +1,5 @@
 (ns sum-of-multiples-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             sum-of-multiples))
 
 (deftest sum-to-1
