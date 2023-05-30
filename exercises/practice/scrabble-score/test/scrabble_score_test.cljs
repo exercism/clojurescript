@@ -1,5 +1,5 @@
 (ns scrabble-score-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             scrabble-score))
 
 (deftest lower-case-letter

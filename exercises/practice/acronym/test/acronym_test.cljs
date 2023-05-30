@@ -1,5 +1,5 @@
 (ns acronym-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             acronym))
 
 (deftest test-acronym-empty-string

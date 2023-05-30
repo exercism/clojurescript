@@ -1,5 +1,5 @@
 (ns etl-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             etl))
 
 (deftest transform-one-value

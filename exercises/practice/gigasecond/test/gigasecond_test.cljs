@@ -1,5 +1,5 @@
 (ns gigasecond-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             gigasecond))
 
 (deftest from-apr-25-2011

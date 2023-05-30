@@ -1,5 +1,5 @@
 (ns rotational-cipher-test
-  (:require  [clojure.test :refer [deftest is testing]]
+  (:require  [cljs.test :refer [deftest is] :as t :include-macros true]
              rotational-cipher))
 
 (deftest rotate-a-by-1

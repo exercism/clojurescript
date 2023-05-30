@@ -1,5 +1,6 @@
 (ns accumulate-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
+            [clojure.string :refer [upper-case]]
             accumulate))
 
 (defn- square [n] (* n n))
@@ -15,7 +16,7 @@
 (deftest accumulate-upcases
   (is (= ["HELLO", "WORLD"]
          (->> ["hello" "world"]
-              (accumulate/accumulate clojure.string/upper-case)
+              (accumulate/accumulate upper-case)
               (map to-s)))))
 
 (deftest accumulate-reversed-strings

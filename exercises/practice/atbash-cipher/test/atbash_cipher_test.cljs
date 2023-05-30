@@ -1,5 +1,5 @@
 (ns atbash-cipher-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             atbash-cipher))
 
 (deftest encode-no

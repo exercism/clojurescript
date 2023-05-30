@@ -1,5 +1,5 @@
 (ns poker-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             [poker :refer [best-hands]]))
 
 (defn f [xs ys] (= (sort (best-hands xs)) (sort ys)))

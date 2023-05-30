@@ -1,5 +1,5 @@
 (ns collatz-conjecture-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [cljs.test :refer [deftest is testing] :as t :include-macros true]
             [collatz-conjecture :refer [collatz]]))
 
 (deftest steps-for-1

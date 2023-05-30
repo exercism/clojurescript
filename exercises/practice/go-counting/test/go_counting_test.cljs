@@ -1,5 +1,5 @@
 (ns go-counting-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             [go-counting :as g]))
 
 (def example

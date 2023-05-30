@@ -1,5 +1,5 @@
 (ns all-your-base-test
-  (:require [clojure.test :refer [deftest testing is]]
+  (:require [cljs.test :refer [deftest is testing] :as t :include-macros true]
             [all-your-base]))
 
 (deftest test-single-bit-to-one-decimal

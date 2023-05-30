@@ -1,6 +1,6 @@
 (ns perfect-numbers-test
   (:require
-   [clojure.test :refer [deftest testing is]]
+   [cljs.test :refer [deftest is testing] :as t :include-macros true]
    [perfect-numbers]))
 
 (deftest test-initialize-perfect-number

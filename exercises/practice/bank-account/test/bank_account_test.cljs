@@ -1,6 +1,6 @@
 (ns bank-account-test
   (:require
-   [clojure.test :refer [deftest testing is use-fixtures]]
+   [cljs.test :refer [deftest is testing] :as t :include-macros true]
    [bank-account]))
 
 (defn pcalls
@@ -11,8 +11,8 @@
   [& fns] (pmap #(%) fns))
 
 #_(defn shutdown-agents-fixture [f]
-  (f)
-  (shutdown-agents))
+    (f)
+    (shutdown-agents))
 
 ;(use-fixtures :once shutdown-agents-fixture)
 

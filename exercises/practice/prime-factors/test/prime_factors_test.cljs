@@ -1,5 +1,5 @@
 (ns prime-factors-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             prime-factors))
 
 (deftest one

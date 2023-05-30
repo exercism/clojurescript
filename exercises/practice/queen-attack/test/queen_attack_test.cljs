@@ -1,5 +1,5 @@
 (ns queen-attack-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             queen-attack))
 
 (def empty-board

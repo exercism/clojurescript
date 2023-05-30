@@ -1,5 +1,5 @@
 (ns change-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             [change :refer [issue]]))
 
 (deftest single-coin-change
@@ -27,12 +27,12 @@
 
 (deftest error-testing-for-change-smallet-than-the-smallest-coin
   (is (thrown? js/Error #"cannot change"
-                        (issue 3 #{5 10}))))
+               (issue 3 #{5 10}))))
 
 (deftest cannot-find-negative-change-values
   (is (thrown? js/Error #"cannot change"
-                        (issue -5 #{1 2 5}))))
+               (issue -5 #{1 2 5}))))
 
 (deftest error-testing-for-no-valid-change
   (is (thrown? js/Error #"cannot change"
-                        (issue 10 #{20 8 3}))))
+               (issue 10 #{20 8 3}))))

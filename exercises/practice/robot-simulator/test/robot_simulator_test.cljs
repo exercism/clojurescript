@@ -1,5 +1,5 @@
 (ns robot-simulator-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             robot-simulator))
 
 (def robbie (robot-simulator/robot {:x -2 :y 1} :east))

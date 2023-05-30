@@ -1,5 +1,5 @@
 (ns nth-prime-test
-  (:require [clojure.test :refer [deftest testing is]]
+  (:require [cljs.test :refer [deftest is testing] :as t :include-macros true]
             nth-prime))
 
 (deftest first-prime

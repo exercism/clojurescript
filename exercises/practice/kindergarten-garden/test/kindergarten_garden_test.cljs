@@ -1,5 +1,5 @@
 (ns kindergarten-garden-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [cljs.test :refer [deftest is] :as t :include-macros true]
             kindergarten-garden))
 
 (deftest garden-test
