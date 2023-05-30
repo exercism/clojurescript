@@ -2,7 +2,7 @@
   "language": "ClojureScript",
   "slug": "clojurescript",
   "track_id": "clojurescript",
-  "active": true,
+  "active": false,
   "status": {
     "concept_exercises": false,
     "test_runner": true,
