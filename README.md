@@ -1,6 +1,7 @@
 # Exercism ClojureScript Track
 
-[![Configlet Status](https://github.com/exercism/clojurescript/workflows/configlet/badge.svg)]
+![Test Status](https://github.com/exercism/clojurescript/actions/workflows/test.yml/badge.svg)
+![Configlet Status](https://github.com/exercism/clojurescript/actions/workflows/configlet.yml/badge.svg)
 
 Exercism exercises in Clojurescript
 
